@@ -29,7 +29,9 @@ Reduce the _Opacity_ in the _Style_ tab to make your watermark partially see thr
 Click _To Front_ or _To Back_ in the _Arrange_ tab to [move your watermark to the front or send it to the back](/blog/move-shapes-forwards-backwards.html) before locking it. 
 <br /><img src="/assets/img/blog/watermark-z-order.png" style="width=100%;max-width:600px;height:auto;" alt="Place your watermark over or under your diagram via the Arrange tab in the format panel">
 
-Right click on the watermark and select _Lock/Unlock_ from the context menu. Alternatively, select the watermark and press ``Ctrl+L`` to lock it with a [keyboard shortcut](/blog/shortcuts.html). 
+**Lock your watermark** 
+
+Select the watermark and click _Lock/Unlock_ in the _Arrange_ tab. Or, right click on the watermark and select _Lock/Unlock_ from the context menu. Alternatively, select the watermark and press ``Ctrl+L`` to lock it with a [keyboard shortcut](/blog/shortcuts.html). 
 <br /><img src="/assets/img/blog/watermark-lock-vs-properties.gif" style="width=100%;max-width:600px;height:auto;" alt="A locked shape in draw.io cannot be cloned or connected to, while non-moveable and non-resizeable can (via shape properties)">
 
 **Note:** While you can change the shape properties of any image or shape to not be _Resizeable_ or _Moveable_ this does not prevent cloning or connectors being attached. It is better to lock the watermark to prevent anyone from accidentally working with it.
@@ -48,8 +50,9 @@ A second way to watermark your diagrams is to add it to a layer that is placed o
 3. Click on the three vertical dots, and move your selected watermark shapes and images to the correct layer.
 <br /><img src="/assets/img/blog/watermark-move-layers.png" style="width=100%;max-width:300px;height:auto;" alt="Change the opacity of all shapes and images in your watermark to make it more or less obvious">
 4. Drag the watermark layer to the top or the bottom of the list of layers to move the watermark to the front or the back of your diagram.
-<br /><img src="/assets/img/blog/watermark-floorplan-layers.gif" style="width=100%;max-width:600px;height:auto;" alt="A locked shape in draw.io cannot be cloned or connected to, while non-moveable and non-resizeable can (via shape properties)">
+<br /><img src="/assets/img/blog/watermark-floorplan-layers.gif" style="width=100%;max-width:400px;height:auto;" alt="A locked shape in draw.io cannot be cloned or connected to, while non-moveable and non-resizeable can (via shape properties)">
 5. Finally, click on the padlock icon to the left of the watermark layer to lock it and prevent anyone from editing it by mistake. The layer name will turn red when locked.
+<br /><img src="/assets/img/blog/watermark-lock-layer.png" style="width=100%;max-width:300px;height:auto;" alt="Lock the watermark layer to prevent any unintended changes">
 
 [Open this example in draw.io](https://app.diagrams.net/?lightbox=1&highlight=0000ff&page=1&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fwatermark-three-examples.drawio)
 
@@ -62,7 +65,7 @@ You can have multiple pages in your draw.io diagrams and use one of these diagra
 3. Make sure nothing is selected on the diagram page then click the _Background_ checkbox in the _Diagram_ tab of the format panel. 
 4. Click _Change_ to open the _Background Image_ dialog, and select the watermark page you want to use as the background image, then click _Apply_.
 
-The watermark page will be converted to an image and placed as the background of your current diagrma page. 
+The watermark page will be converted to an image and placed as the background of your current diagram page. 
 <br /><img src="/assets/img/blog/watermark-background-image.gif" style="width=100%;max-width:600px;height:auto;" alt="Open the background image settings and select the diagram page you want to use as the background">
 
 [Open this example in draw.io](https://app.diagrams.net/?lightbox=1&highlight=0000ff&page=2&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fwatermark-three-examples.drawio)
