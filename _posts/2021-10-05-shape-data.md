@@ -23,8 +23,8 @@ Additional shape data can be used in many different ways.
 
 To see a selected shape's metadata, press ``Ctrl+M`` on Windows, or ``Cmd+M`` on macOS. 
 
-Alternatively, on the _Arrange_ tab in the format panel on the right, click _Edit Data_, or right-click on a shape and select _Edit Data_ from the context menu, or select _Edit > Edit Data_ from the menu. 
-<br /><img src="/assets/img/blog/edit-data-context-menu-arrange-tab.png" style="width=100%;max-width:300px;height:auto;" alt="Right-click on a shape and select Edit data from the context menu, or click Edit Data in the Arrange tab in the format panel"> 
+Alternatively, on the _Style_ tab in the format panel on the right, Select _Edit > Edit Data_ from the list, or right-click on a shape and select _Edit > Edit Data_ from the context menu, or select _Edit > Edit Data_ from the editor menu. 
+<br /><img src="/assets/img/blog/edit-data-context-menu-style-tab.png" style="width=100%;max-width:300px;height:auto;" alt="Right-click on a shape and select Edit data from the context menu, or click Edit > Edit Data in the Style tab in the format panel"> 
 
 In the shape properties dialog, you can add and edit the extra information attached to that shape. 
 <br /><img src="/assets/img/blog/shape-data-link-tag-tooltip.png" style="width=100%;max-width:250px;height:auto;" alt="Add custom properties to a shape, including a link, tags or a tooltip"> 
@@ -37,15 +37,15 @@ In the example above, the shape has a link, a tag and a tooltip.
 ### Copy shape data from one shape to another
 
 1. Select the source shape that contains the shape data you want to copy. 
-2. Click _Copy Data_ in the _Arrange_ tab of the format panel on the right. 
-3. Select the target shape, and click _Paste Data_ in the _Arrange_ tab to overwrite the source shape's metadata. 
+2. Click _Edit > Copy Data_ in the _Style_ tab of the format panel on the right. 
+3. Select the target shape, and click _Edit > Paste Data_ in the _Style_ tab to overwrite the source shape's metadata. 
 <br /><img src="/assets/img/blog/shape-data-copy-paste.gif" style="width=100%;max-width:400px;height:auto;" alt="Copy shape data from one shape and paste it onto another via the Arrange tab"> 
 
 ### Extract shape data
 
 1. Select the shape with the metadata that you want to export. 
-2. Hold ``Shift`` down then left-click on _Copy Data_ in the _Arrange_ tab of the format panel on the right. 
-3. You can now copy the shape data as it appears in XML, including the shape's label text and style and any shape properties.
+2. Click on _Edit > Copy Data_ in the _Style_ tab of the format panel on the right. 
+3. Click _Export_ to see the shape data as it appears in XML, including the shape's label text, styles and shape properties (if defined).
 <br /><img src="/assets/img/blog/shape-data-extract.png" style="width=100%;max-width:250px;height:auto;" alt="Extract the shape's data as it appears in XML"> 
 
 **Dev Tools:** Click _Console_ to export the shape data to your browser's console.
@@ -109,7 +109,7 @@ Custom properties can also be applied globally, not just to shapes, connectors a
 
 While shape style and geometry information are not treated as shape properties, you can edit them in a similar way to editing shape properties. In this way, you can create more complex custom shapes for your diagram.
 
-To see **shape style information**, select a shape press ``Ctrl+E`` on Windows or ``Cmd+E`` on macOS, or select the shape and click _Edit Style_ in the _Style_ tab of the format panel. Edit the XML directly to describe a different [shape style](/doc/faq/shape-styles.html). 
+To see **shape style information**, select a shape press ``Ctrl+E`` on Windows or ``Cmd+E`` on macOS, or select the shape and click _Edit > Edit Style_ in the _Style_ tab of the format panel. Edit the XML directly to describe a different [shape style](/doc/faq/shape-styles.html). 
 <br /><img src="/assets/img/blog/edit-style-dialog.png" style="width=100%;max-width:250px;height:auto;" alt="Edit a shape's style information via Ctrl+E or Cmd+E">
 
 To create **custom shapes**, you need to describe the [shape geometry](/doc/faq/shape-complex-create-edit.html) in addition to the shape style. In the draw.io editor menu, click _Arrange > Insert > Shape_. Enter the geometry and style information in the text field. 

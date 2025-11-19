@@ -69,19 +69,19 @@ Tags let you hide or display tagged shapes and connectors, visualising how relea
 
 **Add tags to shapes**
 
-* Click on _View_ in the left of the toolbar and enable _Tags_ or press ``Cmd+K`` on macOS or ``Ctrl+K`` on Windows.
+* To open the _Tags_ dialog, click on _View_ in the left of the toolbar and enable _Tags_ or press ``Cmd+K`` on macOS or ``Ctrl+K`` on Windows.
 <br /><img src="/assets/img/blog/simple-mode-view-tags.png" style="width=100%;max-width:250px;height:auto;" alt="Use the View menu on the toolbar to show the Tags dialog or press Ctrl+K/Cmd+K">
 
-* Select the shapes and connectors you want to apply a tag to, and click _Add_ in the Tags dialog. Enter the new tag press enter. 
+* Select the shapes and connectors you want to apply a new tag to, and click _+_ in the Tags dialog. Enter the new tag name and press ``Enter``. 
 
-* Click a checkbox to the right of an existing tag to add it to a selected shape or connector. 
+* Select one or more shapes, then click a checkbox to the right of an existing tag to add the tag to the selected shapes. 
+  
+* To remove a tag from a shape, select the shape, then deselect the checkbox to the right of its tag name.
 
 **Note:** In this example, we've added the core tag to all trunk (main) versions to make it easier to visualise. 
 
-[<img src="/assets/img/blog/feature-flag-gitflow.png" style="width=100%;max-width:600px;height:auto;" alt="Trunk-based development with feature branches works well with feature flags on release - apply tags to shapes to visualise this in draw.io">](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-feature-flags.drawio)
-<br />[_Open this gitflow with feature flag tags in our diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-feature-flags.drawio)
-
-**Tip:** You can turn tags on and off via the tags tool in the viewer. 
+[<img src="/assets/img/blog/gitflow-add-core-feature-flag-tag.png" style="width=100%;max-width:600px;height:auto;" alt="Gitflow with an added core feature flag to all trunk shapes in the gitflow diagram">](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-feature-flags.drawio)
+<br />[_Open this gitflow with all feature flag tags in our diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-feature-flags.drawio)
 
 
 **Visualise feature flag-affected branches and releases**
@@ -91,10 +91,12 @@ Now, with nothing selected in your diagram, click the eye symbols next to tags (
 For example, to see which feature branches are flagged as "api", hide all other branches.  If you want to select just those shapes/connectors, click on the select checkbox next to the tag name.
 <br /><img src="/assets/img/blog/gitflow-api-feature-flag-tag.gif" style="width=100%;max-width:600px;height:auto;" alt="Tags in draw.io let you clearly visualise which feature branches and main versions on the trunk are affected by feature flags and quickly select them">
 
+**Reset to see all tagged shapes:** Click the eye at the bottom of the Tags dialog to show all hidden tagged shapes. 
+
 **Tips for working with tags in draw.io**
 
 * Hover over any shape to see their tags.
-* Connectors coming from or going to hidden shapes will not be displayed.
+* Note that connectors coming from or going to hidden shapes will not be displayed even if they are not tagged.
 * Hold down ``Shift`` and click on any of the eye symbols in the Tags dialog to hide or display all tags. 
 
 In our example Gitflow with feature flag tags, to see which versions on any branch have a feature flags applied, hide the core tag. The shapes that have disappeared are ones that have no feature flags - all customers will be able to see all features on those main versions.
@@ -119,13 +121,14 @@ Add [callouts with list shapes](/blog/label-any-diagram.html) on the released ve
 Also called [shape data](/doc/faq/shape-metadata.html), these could also indicate feature flags, as just like tags, they are displayed when you hover over a shape in your diagram. 
 <br /><img src="/assets/img/blog/feature-flags-shape-data-hover.png" style="width=100%;max-width:250px;height:auto;" alt="Add feature flags to a custom shape property in your gitflow diagram">
 
-1. Use the _Edit_ drop down in the Style panel of the format panel on the right to edit, copy and paste shape data, or right-click on a shape then select _Edit_ from the context menu.
-2. Type the name of a new custom shape property in the _Enter Property Name_ field and click _Add Property_.
-3. Add the feature flag names in the field next to the new shape property.
-<br /><img src="/assets/img/blog/feature-flags-shape-property.png" style="width=100%;max-width:250px;height:auto;" alt="Add feature flags to a custom shape property in your gitflow diagram">
+1. Use the _Edit_ drop down in the Style panel of the format panel on the right to edit, copy and paste shape data, or right-click on a shape then select _Edit > Edit Data_ from the context menu.
+<br /><img src="/assets/img/blog/feature-flags-style-panel-edit.png" style="width=100%;max-width:250px;height:auto;" alt="Add feature flags to a shape via Edit > Data in the Style panel in draw.io">
+1. Type the name of a new custom shape property in the _Enter Property Name_ field and click _Add Property_.
+2. Add the feature flag names in the field next to the new shape property.
+<br /><img src="/assets/img/blog/feature-flags-shape-property.png" style="width=100%;max-width:300px;height:auto;" alt="Add feature flags to a custom shape property in your gitflow diagram">
 
-**Tip:** Copy and paste shape data to quickly duplicate custom properties on another shape via _Edit_ in the right-click context menu.
-<br /><img src="/assets/img/blog/feature-flags-copy-paste-shape-data.png" style="width=100%;max-width:250px;height:auto;" alt="Copy and paste tags on shapes via the right-click context menu in draw.io"> 
+**Tip:** Copy and paste shape data to quickly duplicate custom properties on another shape via _Edit > Copy Data_ and _Edit > Paste Data_ in the right-click context menu.
+<br /><img src="/assets/img/blog/feature-flags-copy-paste-shape-data.png" style="width=100%;max-width:300px;height:auto;" alt="Copy and paste tags on shapes via the right-click context menu in draw.io"> 
 
 [Learn how to work with custom shape properties](/blog/shape-data.html)
 

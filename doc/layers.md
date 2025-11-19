@@ -81,7 +81,7 @@ Layers have metadata, just like shapes have metadata. This metadata allowed adva
 
 Remove a layer will delete all of the shapes and connectors that are on it as well as the layer itself. Click on a layer to select it, then click on _Remove_ in the bottom left of the _Layers_ dialog (rubbish bin) to remove the layer and its shapes.
 
-<img src="/assets/img/blog/layer-remove.png" style="max-width:100%;height:auto;" alt="Select a layer, then click on the rubbish bin icon to remove it and all of the shapes/connectors it contains">
+<img src="/assets/img/blog/layer-remove.png" style="width=100%;max-width:250px;height:auto;" alt="Select a layer, then click on the rubbish bin icon to remove it and all of the shapes/connectors it contains">
 
 **Note:** Your diagram must have at least one layer for shapes and connectors to be placed. If there is only one layer in your diagram, you can not delete it. 
 

@@ -12,7 +12,7 @@ Most of a shape's custom metadata will be displayed in a tooltip when you hover 
 
 ## Edit the shape metadata
 
-Right click on the shape or connector, and select _Edit Data_ from the context menu. Alternatively, select the shape or connector then press ``Ctrl+M`` on Windows, or ``Cmd+M`` on macOS. 
+Right click on the shape or connector, and select _Edit > Edit Data_ from the context menu. Alternatively, select the shape or connector then press ``Ctrl+M`` on Windows, or ``Cmd+M`` on macOS, or select _Edit > Edit Data_ from the list in the Style tab of the format panel.
 <br /><img src="/assets/img/blog/metadata-edit.png" style="width=100%;max-width:300px;height:auto;" alt="Edit the shape properties via the context menu to change the metadata">
 
 The shape metadata is displayed in a dialog, with property names on the left, and values on the right.

@@ -38,7 +38,7 @@ If nothing was selected when you added the new tag, you can now assign it to sha
 
 **Remove a tag**
 
-With nothing selected in the diagram, click on the cross next to the tag name you want to delete. 
+With nothing selected in the diagram, click on the trash can next to the name of the tag you want to delete. 
 <br /><img src="/assets/img/blog/tags-dialog-delete-tags.png" style="width=100%;max-width:120px;height:auto;" alt="With nothing selected in your diagram, click on the cross next to the tag name you want to delete in the Tags dialog">
 
 **Assign tags to shapes**
@@ -55,13 +55,12 @@ Now that you have assigned shapes and connectors to tags, you can select, hide a
 
 **Click on the eye** next to a tag name to hide or display shapes and connectors with that tag. If they have multiple tags assigned to them, they will not be hidden unless all of their assigned tags are hidden.
 
+**Click on the checkbox** next to a tag name to select all shapes that have that tag. Alternatively hold down shift and click on a tag name to select the shapes with that tag.
+
 **Click on the tag name itself** to display only those shapes and connectors with that particular tag (as well as those with no tag assigned). Shapes and connectors that are assigned other tags will be hidden. Click on the tag name again to display the other tags.
 <br /><img src="/assets/img/blog/tags-dialog-click.gif" style="width=100%;max-width:500px;height:auto;" alt="Click on the tag names or the eye to display or hide shapes and connectors with those or other tags">
 
-**Hold down ``Shift`` and click on the eye** next to a tag name to hide all shapes and connectors with a tag, and only display untagged diagram elements. Click again to display all elements, or click on _Reset_ at the bottom of the Tags dialog.
-
-**Hold down ``Shift`` and click on a tag name** to select all of the shapes and connectors that have that tag. 
-<br /><img src="/assets/img/blog/tags-dialog-shift-click-tag-name.png" style="width=100%;max-width:500px;height:auto;" alt="Shift+Click on the tag name to select all of the shapes and connectors with that tag">
+**Hold down ``Shift`` and click on the eye** next to any tag name to hide all shapes and connectors with a tag, and only display untagged diagram elements. Click again to display all elements, or click on _Reset_ eye at the bottom of the Tags dialog.
 
 **Tags and container shapes:** You can add tags to the child shapes inside container shapes, as well as to the parent container shape. When you hide the container shape, note that all child elements contained within the parent container shape will also be hidden.
 
