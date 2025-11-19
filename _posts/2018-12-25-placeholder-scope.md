@@ -43,7 +43,7 @@ You can add a placeholder to a label explicitly by referencing the property name
 
 There are some property names that behave in a particular way. You can use one particular property name to override a shape's label.
 
-1. Select a shape and use the keyboard shortcut ``Ctrl+M`` or ``Cmd+M``, or right-click on a shape and select _Edit Data_, then add a property called ``placeholder`` to a shape.
+1. Select a shape and use the keyboard shortcut ``Ctrl+M`` or ``Cmd+M``, or right-click on a shape and select _Edit > Edit Data_, then add a property called ``placeholder`` to a shape.
 2. As the value for the ``placeholder`` property, enter another property name.
 
 Make sure that this second property exists either:
