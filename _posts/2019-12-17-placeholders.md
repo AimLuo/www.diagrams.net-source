@@ -22,7 +22,7 @@ But first, you need to add a property to the shape or container shape you want t
 
 You can add custom properties to any shape, connector, container shape, swim lane, etc.
 
-1. Select a shape, and in the _Arrange_ tab of the format panel, click on _Edit Data_. Alternatively, right-click on the shape and select _Edit Data_ from the context menu, or select the shape and press the keyboard shortcut ``Ctrl+M`` on Windows or ``Cmd+M`` on MacOs.
+1. Select a shape, and in the _Style_ tab of the format panel, click on _Edit > Edit Data_. Alternatively, right-click on the shape and select _Edit > Edit Data_ from the context menu, or select the shape and press the keyboard shortcut ``Ctrl+M`` on Windows or ``Cmd+M`` on MacOs.
 2. The dialog lists the custom properties you have added. To add a new one, enter a name for the custom property, then click _Add Property_.
 <br /><img src="/assets/img/blog/add-property-to-shape-1.png" style="width=100%;max-width:400px;height:auto;" alt="Add a property name to your shape">
 3. Now enter a value for the custom property in the text field next to the name you just entered, and click _Apply_.
@@ -51,7 +51,7 @@ If you want to use the properties defined in a parent shape as a placeholder, yo
 
 To display the value of a shape's property in a label, write the property name surrounded by % signs. For example, if you have added a property called _group_ to the shape, write ``%group%``.
 
-1. Right-click on a shape and select _Edit Data_ from the context menu, make sure the _Placeholders_ checkbox is selected, then click _Apply_.
+1. Right-click on a shape and select _Edit > Edit Data_ from the context menu, make sure the _Placeholders_ checkbox is selected, then click _Apply_.
 <br /><img src="/assets/img/blog/use-placeholders-example.png" style="width=100%;max-width:400px;height:auto;" alt="Edit the shape's data, and enable the Placeholders checkbox">
 2. Edit the text label of the shape to include the property name surrounded by % signs.
 <br /><img src="/assets/img/blog/placeholder-example-label.png" style="max-width:100%;height:auto;" alt="Add a placeholder to a shape label, for example %group%">
@@ -64,7 +64,7 @@ If the property name does not exist for that shape, the value of the matching pr
 
 If a property isn't found and the placeholder text appears with the % signs, edit the shape data (``Ctrl+M`` or ``Cmd+M``) of both the shape and its ancestor, double check the property name is correct and make sure that the _Placeholders_ checkbox is enabled.
 
-Note that the diagram itself can have custom properties that can be referenced by placeholders. Make sure nothing in you diagram is selected, then click _Edit Data_ in the format panel on the right to see these 'global' custom properties.
+Note that the diagram itself can have custom properties that can be referenced by placeholders. Make sure nothing in you diagram is selected, then click _Edit > Edit Data_ in the format panel on the right to see these 'global' custom properties.
 
 Note that there are a few _special_ shape property names:
 - **tooltip**: If you define a tooltip property, only this text will be displayed when you hover over a shape (and no other custom properties).
@@ -90,6 +90,6 @@ Looking at a somewhat more practical example - you can use placeholders in label
 
 In the example below, the labels on the individual nodes inside the subnet use a placeholder which references the custom ``subnet`` property of the containing oval shape. This makes it easy to update the IP addresses in that subnet.
 
-<img src="/assets/img/blog/placeholder-subnet-example.gif" style="width=100%;max-width:400px;height:auto;" alt="Placeholders in the the labels of nodes in an infrastructure diagram">
+<img src="/assets/img/blog/placeholder-subnet-example.gif" style="width=100%;max-width:600px;height:auto;" alt="Placeholders in the the labels of nodes in an infrastructure diagram">
 
 [Open this example in our online version of draw.io](https://app.diagrams.net/?lightbox=0&highlight=0000ff&edit=_blank&layers=1&page=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fnetwork-with-placeholders.drawio)

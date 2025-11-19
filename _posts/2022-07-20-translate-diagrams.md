@@ -34,7 +34,7 @@ Alternatively, add ``"translateDiagrams": true`` to the [draw.io editor configur
 ## Translate labels on shapes and connectors
 When you have enabled the diagram translation feature via the URL parameter above, the original label is shown at the top of the _Edit Data_ dialog. 
 
-1. Right-click on a shape or connector and select _Edit Data_ from the context menu. Alternatively, select a shape and press ``Ctrl+M`` or ``Cmd+M``.
+1. Right-click on a shape or connector and select _Edit > Edit Data_ from the context menu. Alternatively, select a shape and press ``Ctrl+M`` or ``Cmd+M``.
 2. Add a language for the label in the format ``label_XY`` where ``XY`` is a [two-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), and click _Add Property_. 
 <br /><img src="/assets/img/blog/translate-add-label.png" style="width=100%;max-width:400px;height:auto;" alt="Add a shape property for each language of a shape's label in the diagram editor to translate directly in the editor">
 <br />E.g. ``label_de`` is German, ``label_es`` is Spanish, ``label_jp`` is Japanese, etc.
