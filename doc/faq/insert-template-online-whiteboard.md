@@ -5,7 +5,7 @@ faq: true
 categories: [Online Whiteboard]
 ---
 
-1. Click on the template tool in the toolbar on the left to open the template library. 
+1. Click _+ > Template_ in the toolbar on the left to open the template library. 
 2. Select the template category on the left. Click on the magnifying glass in the top right of a template thumbnail on the right to see a larger preview. 
 3. Select the template you want to use, then click _Insert_. 
 

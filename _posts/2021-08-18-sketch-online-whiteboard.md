@@ -16,8 +16,8 @@ The Sketch editor theme is under active development. Please add any suggestions 
 
 **Tip:** To use the Sketch editor theme in our draw.io branded app in Atlassian Confluence, [add the draw.io Board macro to a page](/blog/drawio-board-macro.html). Our [secure draw.io integration for Confluence](/blog/drawio-atlassian-cloud-fortified.html) is built, delivered and maintained by JGraph alongside the online diagrams.net and desktop tools.
 
-<br />[<img src="/assets/img/blog/sketch-theme-tutorial.png" style="width=100%;max-width:600px;height:auto;" alt="Sketch editor theme is currently being developed">](https://app.diagrams.net/?splash=0&ui=sketch&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fblog%2Fboard-visual-tutorial.drawio)
-<br />_[Open this tutorial diagram in draw.io's Sketch whiteboard editor theme](https://app.diagrams.net/?splash=0&ui=sketch&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fblog%2Fboard-visual-tutorial.drawio)_
+<br />[<img src="/assets/img/blog/sketch-theme-tutorial.png" style="width=100%;max-width:600px;height:auto;" alt="Sketch editor theme is currently being developed">](https://app.diagrams.net/?splash=0&ui=sketch&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fboard-visual-tutorial.drawio)
+<br />_[Open this tutorial diagram in draw.io's Sketch whiteboard editor theme](https://app.diagrams.net/?splash=0&ui=sketch&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fboard-visual-tutorial.drawio)_
 
 This editor theme is also used in our [draw.io for Notion Chrome extension](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle) that allows you to [embed, edit and store single-page diagrams in Notion](/blog/store-diagrams-notion.html).
 
@@ -80,7 +80,7 @@ Online whiteboards are more flexible than their physical components. Select a si
 
 **Zoom in and out:** Use the scroll wheel on your mouse, or click on the magnifying glass tools in the bottom right. Click on the number in the center to reset the zoom to 100%, or again to fit the whiteboard content to your browser window.
 
-**See an outline of the entire online whiteboard:** Click on the _Outline_ tool in the bottom right to open a floating panel. The area highlighted in blue is your current browser window. Drag the blue area to move quickly to another section of the whiteboard. 
+**See an outline of the entire online whiteboard:** Click on zoom percentage tool, then select _Outline_ from the list to open a floating panel. The area highlighted in blue is your current browser window. Drag the blue area to move quickly to another section of the whiteboard. 
 <br /><img src="/assets/img/blog/online-whiteboard-canvas.gif" style="width=100%;max-width:600px;height:auto;" alt="Move and zoom the online whiteboard canvas with your mouse or the tools in the bottom right at sketch.diagrams.net">
 
 ### Style shapes, text and connectors
@@ -99,7 +99,9 @@ The tools and options available in the format panel will depend on what you have
 With nothing selected, you can change the colours of all shapes and connectors with a global style. 
 1. Click on the _Style_ tab in the format panel.
 2. Hover over one of the styles to see a preview, and click on it to apply it to your diagram. 
-<img src="/assets/img/blog/online-whiteboard-global-style.png" style="width=100%;max-width:500px;height:auto;" alt="Apply a global style to the online whiteboard via the Style tab in the floating format panel when nothing is selected in your diagram">
+<br /><img src="/assets/img/blog/online-whiteboard-global-style.png" style="width=100%;max-width:500px;height:auto;" alt="Apply a global style to the online whiteboard via the Style tab in the floating format panel when nothing is selected in your diagram">
+
+**Tip:** To see more diagram styles, click on the left and right arrows.
 
 ### Export your whiteboard diagram
 
@@ -119,6 +121,7 @@ There are many shapes available in draw.io that aren't in the toolbar on the lef
 <br />There are many shape libraries for specific types of diagrams, as well as broad categories: software and networking categories with many shape libraries for different types of IT diagrams and service platforms, flowcharts, floorplans, electrical, threat modelling, cabinets for rack diagrams, and many more.
 
 **Draw a freehand shape:** Click on the _Freehand_ tool to draw a freehand shape with your mouse, finger or touchscreen pen, which will be saved as an image with a transparent background.
+<br /><img src="/assets/img/blog/online-whiteboard-freehand.png" style="width=100%;max-width:500px;height:auto;" alt="Draw a freehand shape in draw.io's online whiteboard editor theme">
 
 [Learn more about drawing and styling freehand shapes](/blog/freehand-drawing.html)
 
@@ -129,7 +132,7 @@ There are many shapes available in draw.io that aren't in the toolbar on the lef
 
 If you don't want to start with a blank diagram, you can choose one of the many draw.io templates: Kanban boards, mindmaps, mockups, flowcharts, BPMN diagrams, infrastructure diagrams, floorplans and many more. 
 
-1. Click on the template tool in the toolbar on the left to open the template library. 
+1. Click on _+ > Template_ in the toolbar on the left to open the template library. 
 2. Select the template category on the left. Click on the magnifying glass in the top right of a template thumbnail on the right to see a larger preview. 
 3. Select the template you want to use, then click _Insert_. 
 
