@@ -26,9 +26,9 @@ In addition to using property names as placeholders, you can use the following p
 | ``%date%`` | Prints the current date using the system locale. |
 | ``%time%`` | Prints the current time using the system locale. |
 | ``%timestamp%`` | Prints a timestamp using the system locale. |
-| ``%date{format}%`` &nbsp;&nbsp; | Prints a timestamp using a custom format, details below. |
-| ``%pagenumber%`` | Prints the page number of the current page. |
-| ``%pagecount%`` |  Prints the total number of pages. |
+| ``%date{format}%`` | Prints a timestamp using a custom format, details below. |
+| ``%pagenumber[(+|-)n]%`` | Prints the page number of the current page with an optional +/- number expression, eg. %pagenumber-1%. |
+| ``%pagecount[(+|-)n]%`` |  Prints the total number of pages with an optional +/- number expression, eg. %pagecount-1%. |
 | ``%page%`` | Prints the title of the current page. |
 | ``%filename%`` | Prints the name of the file. |
 
