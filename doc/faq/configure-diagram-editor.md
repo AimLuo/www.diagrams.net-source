@@ -271,6 +271,8 @@ only on app.diagrams.net.
 
 * ``geminiApiKey``: Specifies the Gemini API key. Default is ``null``.
 
+* ``claudeApiKey``: Specifies the Claude API key. Default is ``null``.
+
 * ``gptModels``: Object that contains the models to be used. The models are only used if the respective key exists. Default is
 ```
 {
@@ -281,7 +283,12 @@ only on app.diagrams.net.
   'Gemini 3 Pro Preview': 'gemini-3-pro-preview',
   'Gemini 2.5 Pro': 'gemini-2.5-pro',
   'Gemini 2.5 Flash': 'gemini-2.5-flash',
-  'Gemini 2.0 Flash': 'gemini-2.0-flash'
+  'Gemini 2.0 Flash': 'gemini-2.0-flash',
+  'Claude 4.5 Sonnet': 'claude-sonnet-4-5',
+  'Claude 4.5 Haiku': 'claude-haiku-4-5',
+  'Claude 4.0 Sonnet': 'claude-sonnet-4-0',
+  'Claude 3.7 Sonnet': 'claude-3-7-sonnet-latest',
+  'Claude 3.5 Haiku': 'claude-3-5-haiku-latest'
 }
 ```
 
