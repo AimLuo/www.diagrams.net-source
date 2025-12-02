@@ -40,7 +40,7 @@ Click on a shape or connector, then expand the _Properties_ section in the _Styl
 * _Jiggle_ - how roughly or randomly the borders, connectors and the fill colours are drawn.
 * _Fill Weight_ - set the width of the 'pen' used to draw the fill colour in a shape.
 * _Hachure Gap_ - set the distance between the sketched fill lines.
-* _Hachure Angle_ - set the direction of the sketched fill lines.
+* _Hachure Angle_ - set the direction of the sketched fill lines. Alternatively, change the angle with the _Direction_ shape property.
 * _Disable Multi Stroke_ - use only one pass of the 'pen' in the sketched border of a shape or a connector.
 * _Disable Multi Stroke Fill_ - use only one pass of the 'pen' in the sketched fill colour in a shape.
 * _Sketch Style_ - choose between the rough and comic sketch styles.
@@ -56,6 +56,8 @@ You can set a new global style using one of the presets instead of selecting sha
    * _Sketch_ applies the rough style.
    * _Rounded_ rounds the corners of the shapes.
    * _Curved_ changes the connector style to curved.
+
+**Note:** You will only see the style options that are applicable to the selected shape(s).
 
 <img src="/assets/img/blog/style-tab.gif" style="max-width:100%;height:auto;" alt="Use the styles in the Style tab on the right to change colours and shape and connector styles">
 
