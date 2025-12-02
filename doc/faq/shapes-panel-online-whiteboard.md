@@ -5,7 +5,7 @@ faq: true
 categories: [Online Whiteboard]
 ---
 
-Click on the _Shape_ tool in the toolbar on the left to see the Shapes panel.
+Click on _+ > Shapes_ in the toolbar on the left to see the Shapes panel.
 
 Drag the floating panel around the drawing canvas. Click on the arrow in the top right to minimise/maximise the panel.
 

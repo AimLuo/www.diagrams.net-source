@@ -269,7 +269,28 @@ only on app.diagrams.net.
 
 * ``gptApiKey``: Specifies the ChatGPT API key. Default is ``null``.
 
-* ``gptModel``: ChatGPT model to be used. Default is ``gpt-3.5-turbo``.
+* ``geminiApiKey``: Specifies the Gemini API key. Default is ``null``.
+
+* ``claudeApiKey``: Specifies the Claude API key. Default is ``null``.
+
+* ``gptModels``: Object that contains the models to be used. The models are only used if the respective key exists. Default is
+```
+{
+  'GPT-5.1': 'gpt-5.1-2025-11-13',
+  'GPT-4.1': 'gpt-4.1-2025-04-14',
+  'GPT-4o': 'chatgpt-4o-latest',
+  'GPT-3.5': 'gpt-3.5-turbo-0125',
+  'Gemini 3 Pro Preview': 'gemini-3-pro-preview',
+  'Gemini 2.5 Pro': 'gemini-2.5-pro',
+  'Gemini 2.5 Flash': 'gemini-2.5-flash',
+  'Gemini 2.0 Flash': 'gemini-2.0-flash',
+  'Claude 4.5 Sonnet': 'claude-sonnet-4-5',
+  'Claude 4.5 Haiku': 'claude-haiku-4-5',
+  'Claude 4.0 Sonnet': 'claude-sonnet-4-0',
+  'Claude 3.7 Sonnet': 'claude-3-7-sonnet-latest',
+  'Claude 3.5 Haiku': 'claude-3-5-haiku-latest'
+}
+```
 
 * ``gptUrl``: API endpoint for ChatGPT requests. Default is ``https://api.openai.com/v1/chat/completions``.
 
