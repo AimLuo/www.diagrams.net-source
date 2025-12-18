@@ -243,6 +243,8 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``oneDriveInlinePicker``: Specifies if the inline picker for OneDrive should be used. Default is ``true`` if inlinePicker URL parameter isn't used.
 
+* ``enableNativeClipboard``: Specifies if the native clipboard should be used. Default is ``true`` if not inside an iframe.
+
 * ``settingsName``: Specifies a name for storing user settings, usually in embed mode, in the form ``.{name}-config``, in local storage.
 
 * ``shareCursorPosition``: Specifies the default value for shared cursors in real-time collaboration. Default is ``true``.
