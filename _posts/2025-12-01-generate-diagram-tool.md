@@ -67,7 +67,7 @@ Learn about [when it makes sense to generate diagrams](/blog/generated-diagrams.
   
 **For Atlassian administrators:** [enable smart templates in draw.io for Confluence Cloud](/doc/faq/confluence-cloud-enable-smart-templates.html).
   
-To disable this feature completely, hide the sparkle button and diagram offline, [set the data lockdown option in the draw.io configuration](/blog/data-governance-lockdown.html).
+To disable this feature completely, hide the sparkle button and menu items, set ``"enableAi": false`` in the draw.io app configuration. There are many [diagram generation options](/doc/faq/configuration-custom-ai-actions-endpoints) you can customise in the draw.io configuration.
 
 See more examples of [smart templates and generated diagrams](/blog/smart-diagram-generation.html).
 <br /><img src="/assets/img/blog/generate-mockup2.png" style="width=100%;max-width:500px;height:auto;" alt="The new generate diagram tool">

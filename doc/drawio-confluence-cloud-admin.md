@@ -18,6 +18,7 @@ Jump to a section:
 - [Convert all Gliffy diagrams with the Gliffy mass import tool](#convert-all-gliffy-diagrams-with-the-gliffy-mass-import-tool)
 - [Lockdown diagram data](#lockdown-diagram-data)
 - [Customise draw.io for Confluence Cloud](#customise-drawio-for-confluence-cloud)
+- [Enable diagram generation](#enable-diagram-generation)
   - [Style draw.io to match your corporate image](#style-drawio-to-match-your-corporate-image)
   - [Provide shapes and corporate assets in custom libraries](#provide-shapes-and-corporate-assets-in-custom-libraries)
   - [Add custom templates to diagram faster](#add-custom-templates-to-diagram-faster)
@@ -50,6 +51,17 @@ Learn more about [data storage and flow of diagram data in draw.io for Confluenc
 ## Customise draw.io for Confluence Cloud
 
 Confluence Cloud administrators can customise draw.io to make it easier and faster for their users to create diagrams following a consistent style. This is especially useful when they need to use corporate assets, follow corporate style guidelines, or use custom shape libraries and templates.
+
+## Enable diagram generation
+
+Diagram generation, using a variety of online AI models, is available in draw.io via the menus, in the [template manager](/blog/smart-diagram-generation.html), via the [shape search](/blog/search-omnibox.html) and the [sparkle tool](/blog/generate-diagram-tool.html). These features are disabled and hidden in draw.io for Confluence by default. 
+
+As an administrator, set ``"enableAi": true`` in the draw.io app configuration in your instance's administration settings to allow diagram generation.
+
+Configure custom LLM models, actions and their default instructional prompts, and more via the draw.io configuration.
+<br /><img src="/assets/img/blog/configuration-custom-ai-actions-endpoints.png" style="width=100%;max-width:300px;height:auto;" alt="The diagram Generate options can be customised in draw.io to include specific actions or allow you to choose specific AI models">
+
+[See how to customise the AI diagram generation options](/doc/faq/configure-ai-options.html)
 
 ### Style draw.io to match your corporate image
 
