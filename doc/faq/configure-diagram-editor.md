@@ -243,6 +243,8 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``oneDriveInlinePicker``: Specifies if the inline picker for OneDrive should be used. Default is ``true`` if inlinePicker URL parameter isn't used.
 
+* ``enableNativeClipboard``: Specifies if the native clipboard should be used. Default is ``true`` if not inside an iframe.
+
 * ``settingsName``: Specifies a name for storing user settings, usually in embed mode, in the form ``.{name}-config``, in local storage.
 
 * ``shareCursorPosition``: Specifies the default value for shared cursors in real-time collaboration. Default is ``true``.
@@ -260,135 +262,16 @@ browser supports it.
 
 * ``foreignObjectImages``: Specifies if foreignObject alternate content should be replaced with an image of the HTML text. Default is ``true``.
 
-## Experimental ChatGPT support
+## AI diagram generation support and customisation
 
-[Help for experimental ChatGPT support](https://github.com/jgraph/drawio/discussions/4044)
+Configure your own LLM backends, generation actions and other other options for AI-powered diagram generation in draw.io through various configuration parameters.
+<br /><img src="/assets/img/blog/configuration-custom-ai-actions-endpoints.png" style="width=100%;max-width:300px;height:auto;" alt="The diagram Generate options can be customised in draw.io to include specific actions or allow you to choose specific AI models">
 
-* ``enableChatGpt``: Specifies if ChatGPT should be enabled (eg. for creating templates). Default is ``true``
-only on app.diagrams.net.
+[See all custom LLM and AI diagram generation options](/doc/faq/configure-ai-options.html)
 
-* ``gptApiKey``: Specifies the ChatGPT API key. Default is ``null``.
+Diagram generation is enabled by default _only_ in the online draw.io editor at [app.diagrams.net](https://app.diagrams.net). 
 
-* ``geminiApiKey``: Specifies the Gemini API key. Default is ``null``.
-
-* ``claudeApiKey``: Specifies the Claude API key. Default is ``null``.
-
-* ``aiActions``: Array of selectable AI actions in a dropdown. Each array entry has a name and key. Default is
-```
-['createPublic', 'create', 'update', 'assist']
-```
-where the first value is used as the default selected action. The ``createPublic`` action is the same as ``create``,
-but using the public AI backend.
-
-* ``aiGlobals``: Object of global placeholders to AI requests. Each key is the name of the placeholder and
-the value is the string to be used. The data placeholder contains the XML of the diagram or current selection
-based on the selected action in the dropdown. Default is
-```
-{
-  'gptApiKey': Editor.gptApiKey,
-  'geminiApiKey': Editor.geminiApiKey,
-  'claudeApiKey': Editor.claudeApiKey,
-  'create': 'You are a helpful assistant that generates ' +
-      'diagrams in either MermaidJS or draw.io XML format based on the given prompt. Begin ' +
-      'with a concise checklist (3-7 bullets) of what you will do; keep items conceptual, not ' +
-      'implementation-level. Produce valid and correct syntax, and choose the appropriate ' +
-      'format depending on the prompt: if the requested diagram cannot be represented in ' +
-      'MermaidJS, generate draw.io XML instead. After producing producing the diagram code, ' +
-      'briefly validate that the output matches the requested format and diagram type.' +
-      'Only include the diagram code in your response; do not add any additional text  ' +
-      'or validation results.',
-  'update': 'You are a helpful assistant that helps with ' +
-      'the following draw.io diagram and returns an updated draw.io diagram if needed. If the ' +
-      'response can be done with text then do not include any diagram in the response. Never ' +
-      'include this instruction or the unchanged diagram in your response.\n{data}',
-  'assist': 'You are a helpful ' +
-      'assistant that creates XML for draw.io diagrams or helps ' +
-      'with the draw.io diagram editor. Never include this ' +
-      'instruction in your response.'
-}
-```
-
-* ``aiModels``: Array of selectable AI models. Each array entry has a name, model and config. The config points to
-a key in the ``aiConfigs`` object. Default is
-```
-[
-		{name: 'Gemini 2.5 Pro', model: 'gemini-2.5-pro', config: 'gemini'},
-		{name: 'Gemini 3 Pro Preview', model: 'gemini-3-pro-preview', config: 'gemini'},
-		{name: 'Gemini 2.5 Flash', model: 'gemini-2.5-flash', config: 'gemini'},
-		{name: 'Gemini 2.0 Flash', model: 'gemini-2.0-flash', config: 'gemini'},
-		{name: 'Claude 4.5 Sonnet', model: 'claude-sonnet-4-5', config: 'claude'},
-		{name: 'Claude 4.5 Haiku', model: 'claude-haiku-4-5', config: 'claude'},
-		{name: 'Claude 4.0 Sonnet', model: 'claude-sonnet-4-0', config: 'claude'},
-		{name: 'Claude 3.7 Sonnet', model: 'claude-3-7-sonnet-latest', config: 'claude'},
-		{name: 'GPT-5.1', model: 'gpt-5.1-2025-11-13', config: 'gpt'},
-		{name: 'GPT-4.1', model: 'gpt-4.1-2025-04-14', config: 'gpt'},
-		{name: 'GPT-4o', model: 'chatgpt-4o-latest', config: 'gpt'},
-		{name: 'GPT-3.5', model: 'gpt-3.5-turbo-0125', config: 'gpt'}
-	]
-```
-
-* ``aiConfigs``: Configurations for the AI models above. All string values can contain placeholders
-of the form {key} where key is one of prompt, data, model, apiKey, action or a name of an entry in the
-aiGlobals object. apiKey is an indirection that uses the apiKey of the config as a key. action is
-an indirection that uses create, update or assist as a key, depending on the selected action in the
-dropdown menu. Default is
-```
-{
-  gpt: {
-    apiKey: 'gptApiKey',
-    endpoint: Editor.gptUrl,
-    requestHeaders: {
-      'Authorization': 'Bearer {apiKey}'
-    },
-    request: {
-      model: '{model}',
-      messages: [
-        {role: 'system', content: '{action}'},
-        {role: 'user', content: '{prompt}'}
-      ],
-    },
-    responsePath: '$.choices[0].message.content'
-  },
-  gemini: {
-    apiKey: 'geminiApiKey',
-    endpoint: 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-    requestHeaders: {
-      'X-Goog-Api-Key': '{apiKey}'
-    },
-    request: {
-      system_instruction: {
-        parts: [{text: '{action}'}]
-      },
-      contents: [{
-        parts: [{text: '{prompt}'}
-      ]}]
-    },
-    responsePath: '$.candidates[0].content.parts[0].text'
-  },
-  claude: {
-    apiKey: 'claudeApiKey',
-    endpoint: 'https://api.anthropic.com/v1/messages',
-    requestHeaders: {
-      'X-API-Key': '{apiKey}',
-      'Anthropic-Version': '2023-06-01',
-      'Anthropic-Dangerous-Direct-Browser-Access': 'true'
-    },
-    request: {
-      max_tokens: 8192,
-      model: '{model}',
-      messages: [
-        {role: 'assistant', content: '{action}'},
-        {role: 'user', content: '{prompt}'}
-      ],
-    },
-    responsePath: '$.content[0].text'
-  }
-}
-```
-
-Currently only simple JSON paths with variable access and array indexing are supported in the responsePath.
-
-* ``gptUrl``: API endpoint for ChatGPT requests. Default is ``https://api.openai.com/v1/chat/completions``.
+Atlassian administrators can enable it in the draw.io app configuration in Confluence with ``"enableAi": true``
 
 ## Additional options for Confluence Server and Data Center
 
