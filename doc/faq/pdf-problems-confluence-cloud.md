@@ -5,10 +5,10 @@ faq: true
 categories: [Confluence Cloud, Export]
 ---
 
-draw.io for Confluence Cloud may have problems generating a PDF of your diagrams if they are too large.
+如果图表太大，draw.io for Confluence Cloud 可能在生成图表的 PDF 时遇到问题。
 
-**Note:** This only applies to Confluence Cloud, and not Confluence Server.
+**注意：** 这仅适用于 Confluence Cloud，不适用于 Confluence Server。
 
-Huge diagrams might cause a timeout on the draw.io servers that generate the PDFs. This might result in a blank or corrupt PDF being returned.
+巨大的图表可能会导致生成 PDF 的 draw.io 服务器超时。这可能导致返回空白或损坏的 PDF。
 
-If you have this problem instead of exporting to a PDF, [please print your diagram to a PDF file](/doc/faq/pdf-print-to.html).
+如果您遇到此问题，而不是导出为 PDF，请[将图表打印为 PDF 文件](/doc/faq/pdf-print-to.html)。

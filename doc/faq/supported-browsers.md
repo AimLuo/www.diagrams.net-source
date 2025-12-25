@@ -5,6 +5,6 @@ faq: true
 categories: [Integrations]
 ---
 
-The draw.io online editor supports the web browsers as listed in GitHub at [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
+draw.io 在线编辑器支持 GitHub 上列出的 Web 浏览器，网址为 [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
 
-If you use draw.io with a host product or integration, for example Confluence or Google Drive, the web browsers that are supported match those of of the host product or integration.
+如果您将 draw.io 与主机产品或集成一起使用，例如 Confluence 或 Google Drive，支持的 Web 浏览器与主机产品或集成的浏览器匹配。
