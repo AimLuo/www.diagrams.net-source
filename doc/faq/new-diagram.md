@@ -37,7 +37,7 @@ You can start a new diagram via the menu if you are already working in the draw.
 
 **Tip:** If you are new to draw.io, [step through the tutorial to build a basic flow chart](/doc/getting-started-basic-flow-chart.html). 
 
-## Related
+## 相关
 
-* [Open an existing diagram file](/doc/faq/open-diagram-file.html)
-* [Import a diagram file, including .drawio, .xml, .vsdx and other formats](/doc/faq/import-diagram.html)
+* [打开现有图表文件](/doc/faq/open-diagram-file.html)
+* [导入图表文件，包括 .drawio、.xml、.vsdx 和其他格式](/doc/faq/import-diagram.html)

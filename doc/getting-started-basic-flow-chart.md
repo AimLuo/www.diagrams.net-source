@@ -4,13 +4,13 @@ layout: page
 categories: [features]
 ---
 
-You can create many different types of diagrams with draw.io and [our online diagram editor](https://app.diagrams.net). To learn how to use the editor, let's start with a basic [flowchart](/example-diagrams.html#flowcharts) to document a process.
+您可以使用 draw.io 和[我们的在线图表编辑器](https://app.diagrams.net)创建许多不同类型的图表。要学习如何使用编辑器，让我们从一个基本的[流程图](/example-diagrams.html#flowcharts)开始来记录流程。
 
-Flow charts let you visually describe a process or system. The shapes and very short labels let readers quickly understand what they need to do.
+流程图让您直观地描述流程或系统。形状和非常简短的标签让读者快速了解他们需要做什么。
 
 [<img src="/assets/img/blog/tutorial-new-diagram-header.png" style="width=100%;max-width:90px;" alt="Create a new diagram in draw.io">](#create-a-new-blank-diagram) [<img src="/assets/img/blog/tutorial-add-shapes-header.png" style="width=100%;max-width:90px;" alt="Add shapes in the draw.io editor">](#add-shapes-to-the-drawing-canvas) [<img src="/assets/img/blog/tutorial-edit-shapes-header.png" style="width=100%;max-width:90px;" alt="Edit shapes on the draw.io drawing canvas">](#move-resize-rotate-and-delete-shapes) [<img src="/assets/img/blog/tutorial-connect-shapes-header.png" style="width=100%;max-width:90px;" alt="Draw connectors between shapes in the draw.io editor">](#connect-shapes) [<img src="/assets/img/blog/tutorial-add-labels-header.png" style="width=100%;max-width:90px;" alt="Add labels to shapes and connectors in draw.io">](#connect-shapes) [<img src="/assets/img/blog/tutorial-style-diagram-header.png" style="width=100%;max-width:90px;" alt="Style shapes, connectors and text in draw.io">](#style-your-flow-chart) [<img src="/assets/img/blog/tutorial-export-header.png" style="width=100%;max-width:90px;" alt="Export and share your diagram created in draw.io">](#connect-shapes)
 
-**Tutorial:** Create and style a _basic flow chart_ to learn the draw.io editor.
+**教程：** 创建并设置_基本流程图_的样式以学习 draw.io 编辑器。
 
 - [Create a new blank diagram](#create-a-new-blank-diagram)
 - [Add shapes to the drawing canvas](#add-shapes-to-the-drawing-canvas)
@@ -23,26 +23,26 @@ Flow charts let you visually describe a process or system. The shapes and very s
 - [Style your flow chart](#style-your-flow-chart)
 - [Export and share your flow chart](#export-and-share-your-flow-chart)
 
-## Create a new blank diagram
+## 创建新的空白图表
 
-1. Go to [the online draw.io editor](https://app.diagrams.net).
-2. Click on _Create New Diagram_.
+1. 转到[在线 draw.io 编辑器](https://app.diagrams.net)。
+2. 单击_创建新图表_。
 <br /><img src="/assets/img/blog/basic-flow-create-new-diagram.png" style="width=100%;max-width:200px;height:auto;" alt="Click Create New Diagram to start a new diagram">
-1. In the template manager, enter a filename for your flow chart, ensure _Blank Diagram_ is selected, then click _Create_.
+1. 在模板管理器中，为流程图输入文件名，确保选择了_空白图表_，然后单击_创建_。
 <br /><img src="/assets/img/blog/basic-flow-create-blank-diagram.png" style="width=100%;max-width:300px;height:auto;" alt="Enter a filename, select Blank Diagram, and click Create">
 
-**Tip:** Click on _Change storage_ first if you want to [save your diagram to another location](/doc/faq/storage-location-select.html). 
+**提示：** 如果您想[将图表保存到其他位置](/doc/faq/storage-location-select.html)，请先单击_更改存储位置_。 
 
 <br />
-## Add shapes to the drawing canvas
+## 向绘图画布添加形状
 
-There are a number of different ways to add shapes to the drawing canvas in draw.io.
+在 draw.io 中有多种方法可以向绘图画布添加形状。
 
-**Add the first step** - Use one of the following methods to add a rectangle to the drawing canvas. Rectangles represent the steps in your process.
+**添加第一步** - 使用以下方法之一将矩形添加到绘图画布。矩形表示流程中的步骤。
 
-* Click on a rectangle in the _General_ shape library to add it the drawing canvas.
-* Double-click on an empty area on the drawing canvas and select a rectangle shape.
-* Drag a rectangle from the _General_ shape library to a specific position on the drawing canvas.
+* 单击_常规_形状库中的矩形以将其添加到绘图画布。
+* 双击绘图画布上的空白区域并选择矩形形状。
+* 从_常规_形状库将矩形拖到绘图画布上的特定位置。
 
 <img src="/assets/img/blog/basic-flow-add-shape.gif" style="max-width:100%;height:auto;" alt="Add a rectangle - click on it in the shape library, double click on a blank area, or drag it from the shape library">
 
@@ -54,25 +54,25 @@ There are a number of different ways to add shapes to the drawing canvas in draw
 
 If you added multiple shapes by simply clicking on them in the shape library, you can connect them later. See [how to connect shapes below](#connect-shapes).
 
-**Shapes for flow charts**
+**流程图的形状**
 
-There are many different shapes used to visualise processes in a flow chart.
+流程图中有许多不同的形状用于可视化流程。
 
-* **Rectangle** - Basic steps in your process.
-* **Diamond (rhombus)** - Decisions, usually yes/no questions, that split the process into two or more branches.
-* **Circle or oval** - Optional start and stop points in your process.
-* **Parallelogram** - Input or output, where your process needs or gives information to an external party or system.
-* **Cylinder** - Disk drives, used to indicate that data is stored during that step in the process.
-* **Rectangle with a wavy bottom line** - Documents that are produced as a result of a process step.
+* **矩形** - 流程中的基本步骤。
+* **菱形** - 决策，通常是是/否问题，将流程分成两个或多个分支。
+* **圆形或椭圆形** - 流程中的可选起点和终点。
+* **平行四边形** - 输入或输出，流程需要或向外部方或系统提供信息。
+* **圆柱体** - 磁盘驱动器，用于指示在该流程步骤中存储数据。
+* **底部带波浪线的矩形** - 作为流程步骤的结果生成的文档。
 
 <img src="/assets/img/blog/flow-chart-shapes.png" style="max-width:100%;height:auto;" alt="A selection of shapes available in draw.io commonly used in flow charts">
 
-In addition to the shapes in the _General_ and _Advanced_ shape libraries, you can use shapes from the _Flowchart_ shape library.
+除了_常规_和_高级_形状库中的形状外，您还可以使用_流程图_形状库中的形状。
 
-1. Click on _More Shapes_ at the bottom of the left panel.
-2. Click on the checkbox next to the _Flowchart_ shape library's name to enable it.
+1. 单击左侧面板底部的_更多形状_。
+2. 单击_流程图_形状库名称旁边的复选框以启用它。
 <br /><img src="/assets/img/blog/shape-library-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="Select the shape libraries you want to work with in draw.io">
-3. Click _Apply_. The _Flowchart_ shape library is now available in the left panel.
+3. 单击_应用_。_流程图_形状库现在在左侧面板中可用。
 
 <br />
 ## Move, resize, rotate, and delete shapes
@@ -96,13 +96,13 @@ If one of the connectors, the arrows between the shapes, is going in the wrong d
 **Tip:** Use the _Arrange_ tab to [precisely rotate, reposition and resize shapes](/doc/faq/arrange-tab.html)
 
 <br />
-## Connect shapes
+## 连接形状
 
-Connectors are lines that [connect your shapes together](/blog/connect-shapes.html) and may or may not have arrows at one or both ends. There are two types of connectors.
+连接线是[将形状连接在一起](/blog/connect-shapes.html)的线条，可能在一端或两端有箭头，也可能没有箭头。有两种类型的连接线。
 
-**Floating connectors** - These move around the perimeter of your shape as you move it around the drawing canvas, or change the route that the connector takes.
+**浮动连接线** - 当您在绘图画布上移动形状或更改连接线路径时，这些连接线会围绕形状的周边移动。
 
-**Fixed connectors** - These stay attached to a fixed point on your shape, even when you move the shape around the drawing canvas.
+**固定连接线** - 这些连接线保持连接到形状上的固定点，即使您在绘图画布上移动形状也是如此。
 
 ### Draw a floating connector
 

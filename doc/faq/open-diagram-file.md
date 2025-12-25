@@ -19,7 +19,7 @@ You can import diagram files into an existing diagram by dragging the file and d
 <img src="/assets/img/blog/import-file.gif" style="max-width:100%;height:auto;" alt="Import diagrams into an existing diagram in two different ways">
 
 To force draw.io to import the file, even when you have added shapes to drawing canvas, hold ``Shift`` as you drop the file to import it to a new browser tab. 
-## Related
+## 相关
 
-* [Create a new diagram](/doc/faq/new-diagram.html)
-* [Import a diagram file, including .drawio, .xml, .vsdx and more formats](/doc/faq/import-diagram.html)
+* [创建新图表](/doc/faq/new-diagram.html)
+* [导入图表文件，包括 .drawio、.xml、.vsdx 和更多格式](/doc/faq/import-diagram.html)

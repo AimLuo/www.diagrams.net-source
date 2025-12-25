@@ -5,28 +5,28 @@ faq: true
 categories: [Jira Cloud]
 ---
 
-draw.io is a fully featured diagramming tool, with large shape libraries and templates for a wide range of diagrams. 
+draw.io 是一个功能齐全的图表工具，具有大型形状库和各种图表的模板。
 
-**Jira administrators:** Before any diagram can be added to a Jira issue, an administrator must install the draw.io app in the Jira Cloud instance. Jump to the [administration section](#administration-and-licensing) below.
+**Jira 管理员：** 在可以将任何图表添加到 Jira 问题之前，管理员必须在 Jira Cloud 实例中安装 draw.io 应用。跳转到下面的[管理部分](#administration-and-licensing)。
 
-**Jira users:** If you are _new to diagramming_, [learn the layout of the draw.io editor](/doc/getting-started-editor.html) first, and then [create a simple flowchart](/doc/getting-started-basic-flow-chart.html) to learn the basics of diagramming.
+**Jira 用户：** 如果您是_图表绘制新手_，请先[了解 draw.io 编辑器的布局](/doc/getting-started-editor.html)，然后[创建简单流程图](/doc/getting-started-basic-flow-chart.html)以学习图表绘制的基础知识。
 
 <img src="/assets/img/blog/jira-cloud-drawio-editor.png" style="max-width:100%;height:auto;" alt="Draw diagrams and attach them to Jira Cloud issues with the draw.io app">
 
-## Getting started
+## 开始使用
 
-With the draw.io app for Jira Cloud, you can embed diagrams in issues in four different ways. 
+使用 draw.io for Jira Cloud 应用，您可以通过四种不同的方式在问题中嵌入图表。
 
-We recommend that you [embed a diagram from a Confluence Cloud instance](/blog/confluence-diagrams-in-jira.html) to take advantage of the real-time collaboration tools, [data security](/blog/data-governance-lockdown.html), [customisation](/doc/faq/drawio-confluence-cloud.html), [mass import](/doc/faq/mass-import-gliffy-confluence-cloud.html), [diagram search](/blog/confluence-diagram-search.html) and versioning capabilities.
+我们建议您[从 Confluence Cloud 实例嵌入图表](/blog/confluence-diagrams-in-jira.html)以利用实时协作工具、[数据安全](/blog/data-governance-lockdown.html)、[自定义](/doc/faq/drawio-confluence-cloud.html)、[批量导入](/doc/faq/mass-import-gliffy-confluence-cloud.html)、[图表搜索](/blog/confluence-diagram-search.html)和版本控制功能。
 
-Alternatives:
-* Store the diagram file in the issue itself (below)
-* [Embed a diagram from Google Drive](/doc/faq/embed-diagram-googledrive-jira-cloud.html)
-* [Embed a diagram from OneDrive](/doc/faq/embed-diagram-onedrive-jira-cloud.html)
+替代方案：
+* 将图表文件存储在问题本身中（如下）
+* [从 Google Drive 嵌入图表](/doc/faq/embed-diagram-googledrive-jira-cloud.html)
+* [从 OneDrive 嵌入图表](/doc/faq/embed-diagram-onedrive-jira-cloud.html)
 
-Any changes you make to an embedded diagram file will automatically update diagrams on any Jira Cloud issues its embedded on.
+您对嵌入图表文件所做的任何更改都会自动更新其嵌入的任何 Jira Cloud 问题上的图表。
 
-To store diagram files directly attached to Jira Cloud issues, follow the steps in the sections below.
+要将图表文件直接附加到 Jira Cloud 问题，请按照下面部分的步骤操作。
 
 ### Attach a new diagram to a Jira Cloud issue
 

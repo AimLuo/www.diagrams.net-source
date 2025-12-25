@@ -5,11 +5,11 @@ faq: true
 categories: [Shapes]
 ---
 
-Customise how a shape or groups of on the drawing canvas look using the _Style_ and _Text_ tabs of the format panel on the right. The draw.io editor will automatically switch to the shape style panels when you select one or more shapes. 
+使用右侧格式面板的_样式_和_文本_选项卡自定义绘图画布上形状或形状组的外观。当您选择一个或多个形状时，draw.io 编辑器会自动切换到形状样式面板。
 
-The original shape style uses a black outline and a solid white fill colour. 
+原始形状样式使用黑色轮廓和纯白色填充颜色。
 
-You can customise the shape styles in many ways - click on the links below to see how.
+您可以通过多种方式自定义形状样式 - 单击下面的链接查看如何操作。
 
 - [Use the style palette to change colours](#use-the-style-palette-to-change-colours)
 - [Change the fill colour or add a gradient](#change-the-fill-colour-or-add-a-gradient)
@@ -24,11 +24,11 @@ You can customise the shape styles in many ways - click on the links below to se
   - [Edit the XML that defines the shape properties](#edit-the-xml-that-defines-the-shape-properties)
 - [Related features](#related-features)
 
-Before you can style anything, you must select it. Click on a shape to select it, or hold ``Shift`` down and click on multiple shapes to select many.
+在设置任何内容的样式之前，您必须选择它。单击形状以选择它，或按住 ``Shift`` 并单击多个形状以选择多个。
 
-The style options that you see will depend on the shape or shapes you have selected. For example, there are no corners on a circle or ellipse shape, so the _Rounded_ option will not be available.
+您看到的样式选项将取决于您选择的形状。例如，圆形或椭圆形没有角，因此_圆角_选项将不可用。
 
-**Context-sensitive shape styles:** Once you have styled a shape, to add and connect a new one to that shape in the same style, hover over the existing shape and click on one of the direction arrows. 
+**上下文相关的形状样式：** 设置形状样式后，要以相同样式添加新形状并将其连接到该形状，请将鼠标悬停在现有形状上并单击其中一个方向箭头。 
 
 ## Use the style palette to change colours
 
@@ -72,11 +72,11 @@ If you are diagramming in [dark mode](/blog/dark-mode-diagrams.html), you'll see
 **Add space around the shape:** Enter a new value in the _Perimeter_ checkbox to add space between the outline of the shape, and it's actual size. This will move the connection points and the outer edge that connectors connect to outwards, away from the outline of the shape.
 <br /><img src="/assets/img/blog/style-tab-perimeter.png" style="width=100%;max-width:300px;height:auto;" alt="Increase the Perimeter in the Style tab to move connection points and the floating border to which connectors attach away from the shape">
 
-## Change the opacity of the shape
+## 更改形状的不透明度
 
-You can make the shape more transparent, so that any shapes under it show through. 
+您可以使形状更加透明，以便其下方的任何形状都能显示出来。
 
-Enter a new value in the _Opacity_ text field, or use the up/down arrows to change its value. 
+在_不透明度_文本字段中输入新值，或使用向上/向下箭头更改其值。 
 <br /><img src="/assets/img/blog/shape-opacity.png" style="width=100%;max-width:300px;height:auto;" alt="Set a new value for Opacity to make a shape more transparent and let shapes underneath show through">
 
 ## Apply effects to shapes
@@ -91,11 +91,11 @@ Enter a new value in the _Opacity_ text field, or use the up/down arrows to chan
 <br/>[See how to use the rough sketch style and change the sketch style properties](/blog/rough-style.html)
 <br /><img src="/assets/img/blog/style-tab-shape-sketch.png" style="width=100%;max-width:300px;height:auto;" alt="Click the Sketch checkbox to make the selected shapes and connectors appear roughly hand drawn">
 
-## Copy and paste styles
+## 复制和粘贴样式
 
-1. Select the shape that has the style you want to copy.
-2. In the _Style_ tab of the format panel, click _Copy Style_.
-3. Select the other shapes or connectors that you want to apply this style to. In the _Style_ tab, click on _Paste Style_.
+1. 选择要复制样式的形状。
+2. 在格式面板的_样式_选项卡中，单击_复制样式_。
+3. 选择要应用此样式的其他形状或连接线。在_样式_选项卡中，单击_粘贴样式_。
 <br /><img src="/assets/img/blog/styles-copy-paste.gif" style="width=100%;max-width:300px;height:auto;" alt="Copy and paste styles from one shape or connector to another in draw.io">
 
 ## Set a default style
@@ -126,26 +126,26 @@ Other than using the basic options in the _Style_ tab, you can edit a shape's st
 
 **Note:** Only those properties that can be applied to the selected shape will be available in this property list. 
 
-### Edit the XML that defines the shape properties
+### 编辑定义形状属性的 XML
 
-If you know the shape properties names and values that you want to set, it may be faster to simply edit the shape's XML description in text. 
+如果您知道要设置的形状属性名称和值，直接编辑形状的 XML 描述文本可能会更快。
 
-For example, a rectangle with the rough sketch style, which uses a custom arc-size for its rounded corners, a custom perimeter size, and an outline that is not opaque, would have a shape style that looks like: 
+例如，一个具有粗糙草图样式的矩形，其圆角使用自定义弧大小、自定义周长大小和不透明的轮廓，其形状样式如下所示：
    ```
    rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;
    strokeColor=#6c8ebf;perimeterSpacing=5;arcSize=24;
    strokeOpacity=59;
    ```
-**Edit the shape style**
+**编辑形状样式**
 
-1. Right-click on a shape, and select _Edit Style_ from the context menu. Alternatively, with a shape selected, press ``Ctrl+E`` on Windows or ``Cmd+E`` on macOS.
-2. Edit the XML description with property=value pairs to describe the shape style you want that shape to use, then click _Apply_.
+1. 右键单击形状，然后从上下文菜单中选择_编辑样式_。或者，选择形状后，在 Windows 上按 ``Ctrl+E``，在 macOS 上按 ``Cmd+E``。
+2. 使用 property=value 对编辑 XML 描述以描述您希望该形状使用的形状样式，然后单击_应用_。
 <br /><img src="/assets/img/blog/edit-style-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="Edit the XML description of a shape to define its style and behaviour">
 
-## Related features
+## 相关功能
 
-* [Use shortcuts to style shapes faster](/blog/shortcut-styles.html)
-* [See how to change the style of text labels and text shapes](/doc/faq/text-styles.html)
-* [Change the style of connectors](/doc/faq/connector-styles.html)
-* [Create your own custom shapes](/doc/faq/shape-complex-create-edit.html)
-* [Set custom default styles in draw.io for Confluence Cloud](/doc/faq/custom-styles-confluence-cloud.html)
+* [使用快捷键更快地设置形状样式](/blog/shortcut-styles.html)
+* [了解如何更改文本标签和文本形状的样式](/doc/faq/text-styles.html)
+* [更改连接线的样式](/doc/faq/connector-styles.html)
+* [创建您自己的自定义形状](/doc/faq/shape-complex-create-edit.html)
+* [在 draw.io for Confluence Cloud 中设置自定义默认样式](/doc/faq/custom-styles-confluence-cloud.html)

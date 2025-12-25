@@ -5,12 +5,12 @@ faq: true
 categories: [Features,Text]
 ---
 
-Labels on shapes make it easier to understand a diagram quickly. For some diagrams, such as entity relation or UML diagrams, these labels are essential.
+形状上的标签使快速理解图表变得更容易。对于某些图表，例如实体关系图或 UML 图，这些标签是必不可少的。
 
-1. Double click on a shape. Start typing to replace the label with your own text. Alternatively, single click on a shape and start typing to add or edit the label.
-2. Press ``Enter`` to save the label text.
+1. 双击形状。开始输入以用您自己的文本替换标签。或者，单击形状并开始输入以添加或编辑标签。
+2. 按 ``Enter`` 保存标签文本。
 
-**Tip:** Press ``Shift+Enter`` to [add a line break in a label](/doc/faq/line-breaks.html).
+**提示：** 按 ``Shift+Enter`` 以[在标签中添加换行符](/doc/faq/line-breaks.html)。
 
 <img src="/assets/img/blog/basic-flow-add-labels.gif" style="width=100%;max-width:500px;height:auto;" alt="Add labels to shapes and connectors in draw.io">
 

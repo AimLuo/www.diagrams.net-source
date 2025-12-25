@@ -5,11 +5,11 @@ faq: true
 categories: [Confluence Cloud]
 ---
 
-Administrators can make it easier and faster for their users to use draw.io in Confluence Cloud by providing custom shape libraries, customised colour palettes and custom templates. 
+管理员可以通过提供自定义形状库、自定义调色板和自定义模板，使他们的用户更容易、更快地在 Confluence Cloud 中使用 draw.io。
 
-**Set the correct space permissions for the draw.io config space**
+**为 draw.io config 空间设置正确的空间权限**
 
-The draw.io app for both Confluence Cloud and Confluence Server stores the files needed to provide custom shape libraries and custom templates to uses in the _draw.io config_ space in your Confluence instance. Administrators must ensure that [all draw.io users have the appropriate **read** permission](/doc/faq/confluence-drawio-config-space-permissions.html) set for that space in order to access these custom libraries.
+draw.io for Confluence Cloud 和 Confluence Server 应用将提供自定义形状库和自定义模板所需的文件存储在 Confluence 实例中的_draw.io config_空间中。管理员必须确保[所有 draw.io 用户对该空间具有适当的**读取**权限](/doc/faq/confluence-drawio-config-space-permissions.html)，以便访问这些自定义库。
 
 
 On this page, you'll find instructions for the most common administration tasks and customisation options with links to detailed FAQs about draw.io for Confluence Cloud. 

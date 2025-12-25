@@ -5,13 +5,13 @@ faq: true
 categories: [Features]
 ---
 
-Layers add structure and organisation to your diagrams. When you interact with a complex diagram, to display or hide its various layers, you can understand them more easily.
+图层为图表添加结构和组织。当您与复杂图表交互时，显示或隐藏其各个图层，您可以更轻松地理解它们。
 
-**Note:** Each shape or connector (or group) can only be placed on one layer - it can't belong to multiple layers.
+**注意：** 每个形状或连接线（或组）只能放置在一个图层上 - 它不能属于多个图层。
 
-## Using layers in diagrams
+## 在图表中使用图层
 
-The sections below explain how to work with layers in draw.io.
+以下部分说明如何在 draw.io 中使用图层。
 
 - [Using layers in diagrams](#using-layers-in-diagrams)
   - [Open the Layers dialog](#open-the-layers-dialog)
@@ -28,7 +28,7 @@ The sections below explain how to work with layers in draw.io.
 - [Diagrams that work well with layers](#diagrams-that-work-well-with-layers)
 
 
-**Tip:** [Open the example gitflow in the draw.io editor](https://app.diagrams.net/?lightbox=0&highlight=0000ff&edit=_blank&layers=1&page=0&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-layers.drawio) - use the sections below to learn how to work with these layers in a diagram. 
+**提示：** [在 draw.io 编辑器中打开示例 gitflow](https://app.diagrams.net/?lightbox=0&highlight=0000ff&edit=_blank&layers=1&page=0&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-layers.drawio) - 使用以下部分了解如何在图表中使用这些图层。 
 
 ### Open the Layers dialog
 
@@ -87,16 +87,16 @@ Remove a layer will delete all of the shapes and connectors that are on it as we
 
 [_Back to top_](#using-layers-in-diagrams)
 
-## Work with shapes on layers
+## 在图层上使用形状
 
-Shapes are arranged in the order you added them to the drawing canvas, within the layer you added them. 
+形状按照您将它们添加到绘图画布的顺序排列，在您添加它们的图层内。
 
-Layers are arranged from front to back as they are ordered top to bottom in the _Layers_ dialog. Shapes and connectors placed on a higher layer can not go back behind shapes on a lower layer - they can only be arranged from front to back _within their layer_.
+图层从前往后排列，就像它们在_图层_对话框中从上到下排序一样。放置在较高图层上的形状和连接线不能回到较低图层上的形状后面 - 它们只能在_其图层内_从前往后排列。
 
-### Add shapes to a layer 
+### 向图层添加形状
 
-1. Make sure your layer is visible and unlocked before you make changes (click on the eye to display a hidden layer and the lock icon to the left of the layer name). Layers are unlocked by default.
-2. Select the layer you want to add the shape to in the _Layers_ dialog, then add the shape to the drawing canvas. 
+1. 在进行更改之前，请确保图层可见且已解锁（单击眼睛以显示隐藏的图层，单击图层名称左侧的锁定图标）。图层默认已解锁。
+2. 在_图层_对话框中选择要添加形状的图层，然后将形状添加到绘图画布。 
 
 <img src="/assets/img/blog/layer-add-shape.gif" style="max-width:100%;height:auto;" alt="Make the layer you want to add the shape or connector to visible and unlocked, then select it, and add your shape/connector">
 
@@ -153,18 +153,18 @@ In the _Layers_ dialog, click on the eye on the left of layer's name to display 
 
 [_Back to top_](#using-layers-in-diagrams)
 
-## Lock layers to prevent changes
+## 锁定图层以防止更改
 
-Locking a layer means you cannot make any changes to it - you can't add, move, edit, stye or delete the shapes and connectors placed on that layer. 
+锁定图层意味着您无法对其进行任何更改 - 您无法添加、移动、编辑、设置样式或删除放置在该图层上的形状和连接线。
 
-In the _Layers_ dialog, click on the padlock icon to the left of the layer's name that you want to lock.
+在_图层_对话框中，单击要锁定的图层名称左侧的挂锁图标。
 
 <img src="/assets/img/blog/layer-locked-add-shape-failure.gif" style="max-width:100%;height:auto;" alt="Click on the padlock next to a layer's name in the Layers dialog to lock or unlock the layer">
 
 [_Back to top_](#using-layers-in-diagrams)
 
-## Diagrams that work well with layers
+## 适合使用图层的图表
 
-* [Floor plans](/blog/floorplans.html) - Add furniture, appliances or IT devices, fixtures, and decorations on separate layers.
-* [Network diagrams](/blog/network-diagrams.html) - Place areas behind firewalls or on different subnets on different layers. 
-* [Gitflow diagrams](/blog/gitflow-diagram.html) - Separate team or feature branches onto their own layers. Open this [example gitflow diagram with layers](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&page=0&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-layers.drawio) in the lightbox viewer.
+* [平面图](/blog/floorplans.html) - 在单独的图层上添加家具、电器或 IT 设备、固定装置和装饰。
+* [网络图](/blog/network-diagrams.html) - 将防火墙后面的区域或不同子网上的区域放置在不同的图层上。 
+* [Gitflow 图](/blog/gitflow-diagram.html) - 将团队或功能分支分离到它们自己的图层上。在灯箱查看器中打开这个[带图层的示例 gitflow 图](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&page=0&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fgitflow-layers.drawio)。
