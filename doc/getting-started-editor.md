@@ -58,106 +58,106 @@ draw.io 中的菜单与其他应用程序的工作方式相同。功能按以下
 
 [_Back to top_](#the-drawio-editor)
 
-### Toolbar
+### 工具栏
 
-Some of the tools in the toolbar need to have the right elements in your diagram selected. For example, the _Delete_ tool will be light grey and not enabled if you haven't selected a shape, connector or text.
+工具栏中的某些工具需要在图表中选择正确的元素。例如，如果您没有选择形状、连接线或文本，_删除_工具将显示为浅灰色且不可用。
 
 <img src="/assets/img/blog/toolbar.png" style="max-width:100%;height:auto;" alt="The draw.io toolbar">
 
-In order from left to right:
-* **View** _(three panels)_ - Hide or display the format panel, or the layers and outline dialogs.
-* **Zoom** _(number percentage)_ - Make your diagram appear larger or smaller in the editor. This does not affect the export or print size of your diagram.
-* **Zoom In/Zoom Out** _(magnifying glass)_ - Zoom into or out of your diagram.
-* **Undo/Redo** _(curved arrows)_ - Undo or redo your changes.
-* **Delete** _(trash)_ - Delete the selected shapes.
-* **To Front/To Back** _(layered shapes)_ - Move the selected shapes to the front or back of your diagram, arranging them over or under those that aren't selected.
-* **Fill Color** _(paint can)_ - Change the fill colour of the selected shapes.
-* **Line Color** _(pen and line)_ - Change the colour of the selected shapes' outline or connector.
-* **Shadow** _(box with a shadow)_ - Enable or disable a shadow on the selected shapes.
-* **Connection** _(arrow)_ - Select a connector style from the drop down list and apply it to the selected connectors.
-* **Waypoints** _(line with two connection points)_ - Select a routing style to change how the selected connectors bend on the drawing canvas.
-* **Insert** _(plus)_ - Insert a common shape, freehand drawing, image, template, layout, and more.
-* **Table** _(grid)_ - Click then drag or click on a point in the table to insert a table shape of with your selected rows and columns.
+从左到右依次为：
+* **视图** _(三个面板)_ - 隐藏或显示格式面板，或图层和轮廓对话框。
+* **缩放** _(数字百分比)_ - 使图表在编辑器中显示得更大或更小。这不会影响图表的导出或打印大小。
+* **放大/缩小** _(放大镜)_ - 放大或缩小图表。
+* **撤销/重做** _(弯曲箭头)_ - 撤销或重做您的更改。
+* **删除** _(垃圾桶)_ - 删除选定的形状。
+* **置于顶层/置于底层** _(分层形状)_ - 将选定的形状移动到图表的前面或后面，将它们排列在未选定形状的上方或下方。
+* **填充颜色** _(油漆桶)_ - 更改选定形状的填充颜色。
+* **线条颜色** _(笔和线条)_ - 更改选定形状的轮廓或连接线的颜色。
+* **阴影** _(带阴影的框)_ - 启用或禁用选定形状上的阴影。
+* **连接** _(箭头)_ - 从下拉列表中选择连接线样式并应用于选定的连接线。
+* **路径点** _(带两个连接点的线条)_ - 选择路由样式以更改选定连接线在绘图画布上的弯曲方式。
+* **插入** _(加号)_ - 插入常用形状、手绘图形、图像、模板、布局等。
+* **表格** _(网格)_ - 单击然后拖动或单击表格中的某个点以插入具有选定行和列的表格形状。
 
-At the right end of the toolbar are three view options:
-* **Fullscreen** _(box and corners)_ - Close the left and right panels to make the drawing canvas the full size of the draw.io window.
-* **Format Panel** _(two panels)_ - Display or hide the format panel on the right.
-* **Collapse/Expand** _(up arrows)_ - Display or hide the filename and draw.io application icon.
+工具栏右端有三个视图选项：
+* **全屏** _(框和角)_ - 关闭左右面板，使绘图画布占据 draw.io 窗口的完整大小。
+* **格式面板** _(两个面板)_ - 显示或隐藏右侧的格式面板。
+* **折叠/展开** _(向上箭头)_ - 显示或隐藏文件名和 draw.io 应用程序图标。
 
 [_Back to top_](#the-drawio-editor)
 
-### Shapes and shape libraries
+### 形状和形状库
 
-Shapes are arranged into logical groups, called shape libraries. Not all of the shape libraries are shown at once as there are simply too many of them.
+形状被组织成逻辑组，称为形状库。由于形状库太多，不会同时显示所有形状库。
 
-**Tip:** Expand or collapse each shape library in the left panel by clicking on its name.
+**提示：** 通过单击名称来展开或折叠左侧面板中的每个形状库。
 
 <img src="/assets/img/blog/shape-library-panel.png" style="width=100%;max-width:300px;height:auto;" alt="Shapes are arranged into logical groups called shape libraries in draw.io">
 
 [_Back to top_](#the-drawio-editor)
 
-#### Enable/disable shape libraries
+#### 启用/禁用形状库
 
-To make creating a diagram easier, enable only the shape libraries that you need for the particular diagram you are working on.
+为了更轻松地创建图表，仅启用您正在处理的特定图表所需的形状库。
 
-1. Click on _More Shapes_ at the bottom of the left panel.
-2. Scroll through the various shape libraries - these are arranged into useful categories for the different types of diagrams. Click on the checkbox next to a shape library's name to enable or disable it.
+1. 单击左侧面板底部的_更多形状_。
+2. 滚动浏览各种形状库 - 这些形状库按有用的类别排列，适用于不同类型的图表。单击形状库名称旁边的复选框以启用或禁用它。
 <br /><img src="/assets/img/blog/shape-library-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="Select the shape libraries you want to work with in draw.io">
-3. Click _Apply_.
+3. 单击_应用_。
 
 [See how to add shapes to the drawing canvas](#add-shapes-to-the-drawing-canvas)  
 
-#### Scratchpad
+#### 便笺本
 
-The [scratchpad is your personal shape library](/doc/faq/scratchpad.html) where you can add the shapes or groups of shapes that you use the most often.
+[便笺本是您的个人形状库](/doc/faq/scratchpad.html)，您可以在其中添加最常用的形状或形状组。
 
-1. Drag one or more selected shapes from the drawing canvas onto the scratchpad.
-2. Click on one of the shapes or groups of shapes you have saved to the scratchpad to add another copy to the drawing canvas, just like you would a shape from the shape libraries.
+1. 将一个或多个选定的形状从绘图画布拖到便笺本上。
+2. 单击您已保存到便笺本的形状或形状组之一，将另一个副本添加到绘图画布，就像从形状库中添加形状一样。
 
 <img src="/assets/img/blog/scratchpad-add-multiple-shapes.gif" style="width=100%;max-width:400px;height:auto;" alt="Add multiple shapes as one element on the scratchpad in draw.io">
 
 [_Back to top_](#the-drawio-editor)
 
-#### Search shapes
+#### 搜索形状
 
-There are so many shapes organised into so many libraries, that they can be hard to find. Type the name of a shape into the shape search field, and you'll get a number of matches. This also finds matching clipart shapes if you are online.
+有如此多的形状被组织成如此多的库，以至于很难找到它们。在形状搜索字段中输入形状的名称，您将获得多个匹配项。如果您在线，这也会找到匹配的剪贴画形状。
 
-**Tip:** If you don't find the shape you are looking for, try searching for a related word.
+**提示：** 如果找不到您要查找的形状，请尝试搜索相关词。
 
 <img src="/assets/img/blog/search-shapes.png" style="width=100%;max-width:150px;height:auto;" alt="Searching for a pie chart shape for an infographic in draw.io">
 
 [_Back to top_](#the-drawio-editor)
 
-### Drawing canvas
+### 绘图画布
 
-Draw your diagram by placing, connecting and styling shapes on the drawing canvas in the middle of the editor. The drawing canvas displays a grid by default to help you align and space shapes neatly.
+通过在编辑器中间的绘图画布上放置、连接和设置形状样式来绘制图表。绘图画布默认显示网格，以帮助您整齐地对齐和间距形状。
 
-* **Pan the drawing canvas** with the scroll bars, or right-click/middle-click in an empty area on the drawing canvas and drag to move the canvas around. Use the mouse scroll wheel to move the canvas vertically.
-* **Zoom in and out** using the Zoom In/Zoom Out tools in the toolbar, or hold down ``Ctrl`` on Windows, or ``Cmd`` on macOS and use the scroll wheel to zoom into and out of the drawing canvas. This does not change the size of your diagram.
+* **平移绘图画布** 使用滚动条，或在绘图画布的空白区域右键单击/中键单击并拖动以移动画布。使用鼠标滚轮垂直移动画布。
+* **放大和缩小** 使用工具栏中的放大/缩小工具，或在 Windows 上按住 ``Ctrl``，在 macOS 上按住 ``Cmd``，然后使用滚轮放大和缩小绘图画布。这不会更改图表的大小。
 
-**Tip:** Enable the rulers via the _View_ menu.
+**提示：** 通过_视图_菜单启用标尺。
 
 <img src="/assets/img/blog/drawing-canvas.png" style="width=100%;max-width:400px;;height:auto;" alt="The drawing canvas of draw.io">
 
 [Move the drawing canvas on touchscreens and in the outline panel](/doc/faq/drawing-canvas-move)
 
-#### Page tabs
+#### 页面选项卡
 
-Organise complex diagrams into multiple pages.
+将复杂图表组织成多个页面。
 
-* Click on _⋮_ (vertical ellipses) underneath the drawing canvas to access the diagram page menu.
-* Click on the page tabs to view that page.
-* Add a new page by clicking on _+_ (plus).
+* 单击绘图画布下方的 _⋮_（垂直省略号）以访问图表页面菜单。
+* 单击页面选项卡以查看该页面。
+* 通过单击 _+_（加号）添加新页面。
 
-[Learn how to work with multiple pages in a diagram](/blog/multiple-page-diagrams.html)
+[了解如何在图表中使用多个页面](/blog/multiple-page-diagrams.html)
 
 [_Back to top_](#the-drawio-editor)
 
-### Format panel
+### 格式面板
 
-The format panel on the right contains options and properties that you can change to arrange and style your shapes, connectors, text and diagram.
+右侧的格式面板包含您可以更改的选项和属性，以排列和设置形状、连接线、文本和图表的样式。
 
-What you see is context sensitive. For example, when you click on a connector, you will see additional styling options that can only be applied to connectors. If you select only text and no shapes or connectors, you'll see only the text styling options.
+您看到的内容是上下文相关的。例如，当您单击连接线时，您将看到只能应用于连接线的其他样式选项。如果您只选择文本而不选择形状或连接线，您将只看到文本样式选项。
 
 #### Style tab
 
@@ -171,13 +171,13 @@ To learn how to work with styles, follow our [basic flow chart tutorial](/doc/ge
 
 [_Back to top_](#the-drawio-editor)
 
-#### Text tab
+#### 文本选项卡
 
-Change the font, size and style of your labels using the [_Text_ tab of the format panel](/doc/faq/text-styles.html) on the right. You can also change the vertical and horizontal alignment of the text, the writing direction, the font and background colour and opacity, and add spacing around the text.
+使用右侧格式面板的[_文本_选项卡](/doc/faq/text-styles.html)更改标签的字体、大小和样式。您还可以更改文本的垂直和水平对齐方式、书写方向、字体和背景颜色以及不透明度，并在文本周围添加间距。
 
-_Word Wrap_ and _Formatted Text_ are enabled by default. This lets you style characters and words inside the label text as if it were HTML, which also supports hyperlinks.
+默认情况下启用_自动换行_和_格式化文本_。这允许您像 HTML 一样设置标签文本内的字符和单词样式，这也支持超链接。
 
-**Tip:** Double click on text to edit the text and select part of a label. Then, only the _Text_ tab is displayed (right) as you are not editing a shape.
+**提示：** 双击文本以编辑文本并选择标签的一部分。然后，只显示_文本_选项卡（右侧），因为您不是在编辑形状。
 
 Compare the different style options below when a shape is selected (left) and when a connector is selected (right).
 
@@ -185,38 +185,38 @@ Compare the different style options below when a shape is selected (left) and wh
 
 [_Back to top_](#the-drawio-editor)
 
-#### Arrange tab
+#### 排列选项卡
 
-Change the position of shapes and connectors, send them to the front or the back behind other shapes, change their size, or rotate them via the [_Arrange_ tab on the format panel](/doc/faq/arrange-tab.html).
+通过格式面板上的[_排列_选项卡](/doc/faq/arrange-tab.html)更改形状和连接线的位置，将它们发送到前面或后面，更改它们的大小，或旋转它们。
 
-Click _Edit Data_ to manually edit the selected shape's metadata, or _Edit Link_ to add a hyperlink.
+单击_编辑数据_以手动编辑选定形状的元数据，或单击_编辑链接_以添加超链接。
 
-**Note:** The _Arrange_ tab shows fewer options when you select a connector (right) than when you select a shape (left).
+**注意：** 选择连接线时（右）_排列_选项卡显示的选项比选择形状时（左）少。
 
 <img src="/assets/img/blog/arrange-tab-shape.png" style="width=100%;max-width:300px;;height:auto;" alt="Organise your shapes on the drawing canvas with the Arrange tab in the format panel in draw.io">  <img src="/assets/img/blog/arrange-tab-connector.png" style="width=100%;max-width:300px;;height:auto;" alt="Organise your connectors on the drawing canvas with the Arrange tab in the format panel in draw.io">
 
 [_Back to top_](#the-drawio-editor)
 
-#### Global diagram options
+#### 全局图表选项
 
-If you have nothing selected, you'll see the [options that apply to the entire diagram](/doc/faq/diagram-options.html) and the drawing canvas.
+如果您没有选择任何内容，您将看到[适用于整个图表](/doc/faq/diagram-options.html)和绘图画布的选项。
 
-* Change the print and drawing canvas options in the _Diagram_ tab.
-* Apply a new global style to shapes, text and connectors in the _Style_ tab.
+* 在_图表_选项卡中更改打印和绘图画布选项。
+* 在_样式_选项卡中向形状、文本和连接线应用新的全局样式。
 
 <img src="/assets/img/blog/diagram-options.png" style="width=100%;max-width:300px;;height:auto;" alt="The page and drawing canvas options available in draw.io">   <img src="/assets/img/blog/diagram-options-style.png" style="width=100%;max-width:300px;;height:auto;" alt="The style options let you globally change the shape, connector and text styles in draw.io">
 
 [_Back to top_](#the-drawio-editor)
 
-## Keyboard shortcuts
+## 键盘快捷键
 
-Use the following keyboard shortcuts to work more efficiently with our draw.io editor.
+使用以下键盘快捷键可以更高效地使用我们的 draw.io 编辑器。
 
 [<img src="https://app.diagrams.net/shortcuts.svg" style="width=100%;max-width:600px;;height:auto;" alt="The page and drawing canvas options available at app.diagrams.net">](https://app.diagrams.net/shortcuts.svg)
-<br />[_View and print these keyboard shortcuts_](https://app.diagrams.net/shortcuts.svg)
+<br />[_查看和打印这些键盘快捷键_](https://app.diagrams.net/shortcuts.svg)
 
-## Next step: Draw a diagram
+## 下一步：绘制图表
 
-Follow this [basic flowchart tutorial](/doc/getting-started-basic-flow-chart.html) to create your first diagram.
+遵循这个[基本流程图教程](/doc/getting-started-basic-flow-chart.html)来创建您的第一个图表。
 
 <img src="/assets/img/blog/basic-flow.png" style="width=100%;max-width:200px;height:auto;" alt="The diagram exported as a PNG image">s

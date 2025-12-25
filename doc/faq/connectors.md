@@ -5,19 +5,19 @@ faq: true
 categories: [Connectors]
 ---
 
-Connectors are lines that connect your shapes. They can also have arrows or other symbols at one or both ends. 
+连接线是连接形状的线条。它们也可以在一端或两端有箭头或其他符号。
 
-There are two types of connectors in draw.io.
+draw.io 中有两种类型的连接线。
 
-## Floating and fixed connectors
+## 浮动和固定连接线
 
-There are two main types of connectors in draw.io. 
+draw.io 中有两种主要类型的连接线。
 
-* **Floating connectors** move around the perimeter of the shape. 
-* **Fixed connectors**  stay attached to fixed points on your shape. 
+* **浮动连接线**围绕形状的周边移动。
+* **固定连接线**保持连接到形状上的固定点。 
 <br /><img src="/assets/img/blog/connector-floating-vs-fixed.gif" style="width=100%;max-width:400px;height:auto;" alt="Floating connectors move intelligently around the shape when you move it. Fixed connectors stay attached to that fixed point on the shape.">
 
-Connectors can be fixed and one end and floating at the other, or the same type of connection at both ends. 
+连接线可以一端固定，另一端浮动，或者两端使用相同类型的连接。 
 
 ### Add a floating connector
 
@@ -45,26 +45,26 @@ Fixed connectors will remain attached to that particular location on a shape, ev
 * [Customise a shape to have different connection points](/doc/faq/shape-connection-points-customise.html)
 * [Learn how to use waypoints to change the connector's path](/blog/waypoints-connectors.html)
 
-## Connect shapes automatically
+## 自动连接形状
 
-The draw.io editor can automatically add connectors in a variety of ways When you add new shapes to the drawing canvas.
+draw.io 编辑器可以在您向绘图画布添加新形状时以多种方式自动添加连接线。
 
-**Clone and connect a shape:** Click on a direction arrow towards a blank space on the drawing canvas, then select a shape to add and connect it in that direction. 
+**克隆并连接形状：** 单击指向绘图画布上空白区域的方向箭头，然后选择一个形状以在该方向上添加并连接它。
 
-**Drag and drop a shape:** Drag a shape from the shape library or the drawing canvas, and drop it on a direction arrow or an existing unconnected connector.
+**拖放形状：** 从形状库或绘图画布拖动形状，并将其放在方向箭头或现有的未连接连接线上。
 
 <img src="/assets/img/blog/shapes-clone-add-connect.gif" style="width=100%;max-width:300px;height:auto;" alt="Drag and drop shapes onto the blue directional arrows or connector ends">
 
 [Use shortcuts to add, clone and automatically connect shapes](/blog/connect-shapes.html)
 
-## Add labels to a connector
+## 向连接线添加标签
 
-Connectors can have three labels - one in the middle, and at either end. 
+连接线可以有三个标签 - 一个在中间，一个在两端。
 
-Double click on the connector at the location where you want to add a label.
+在要添加标签的位置双击连接线。
 
-These labels will move with the connector as you move the shapes around on the drawing canvas, but you can also drag them to another location. 
-* To manually change a label's position, select the label by clicking on it, then drag the diamond grab handle to a new position.
+当您在绘图画布上移动形状时，这些标签会随连接线移动，但您也可以将它们拖动到另一个位置。
+* 要手动更改标签的位置，请通过单击选择标签，然后将菱形抓取手柄拖动到新位置。
 <br /><img src="/assets/img/blog/connector-label.png" style="width=100%;max-width:400px;height:auto;" alt="Connectors can have three labels - double click to add a label to a connector, and drag the labels to a new position using the diamond grab handle.">
 
 ## Use waypoints on connectors
@@ -85,33 +85,33 @@ To add or remove waypoints and change the path of a connector, drag a section of
 
 **Tip:** You can [reverse the source and target ends of a connector](/doc/faq/connector-reverse.html) (with their labels), and [flip a connector horizontally or vertically](/doc/faq/connector-flip.html) via the _Arrange_ tab in the format panel.
 
-## Move connectors in front of or behind shapes
+## 将连接线移动到形状的前面或后面
 
-**Move connectors directly to the front or back**
+**将连接线直接移动到前面或后面**
 
-1. Select one or more connectors. 
-2. Click _To Front_ or _To Back_ to send them directly in front of or behind all shapes and connectors on that layer.
+1. 选择一个或多个连接线。
+2. 单击_置于顶层_或_置于底层_以将它们直接发送到该图层上所有形状和连接线的前面或后面。
 
-**Move a connector forwards or backwards**
+**向前或向后移动连接线**
 
-1. Select one connector, or one group of shapes/connectors.
-2. Click _Bring Forward_ or _Send Backward_ to step the selected connector forwards or backwards, one shape at a time.
+1. 选择一个连接线或一组形状/连接线。
+2. 单击_上移一层_或_下移一层_以一次一个形状地向前或向后移动选定的连接线。
 <br /><img src="/assets/img/blog/arrange-tab-connector-bring-forward.gif" style="width=100%;max-width:400px;height:auto;" alt="Move connectors in front of or behind other shapes and connectors using the tools on the Arrange tab">
 
 [Learn more about the z-order of shapes and layers](/blog/move-shapes-forwards-backwards.html)
 
-## Connector style options
+## 连接线样式选项
 
-There are many different ways in which you can style connectors. 
-* Change the line colour, opacity, width and pattern.
-* Set bends to be sharp, rounded or curved.
-* Change the automatic routing behaviour with a variety of waypoint styles.
-* Add a variety of different arrow heads or technical symbols. 
-* Start or end the connectors outside the border of the shape, or offset it inside the shape.
-* Set overlapping lines to use line jumps.
-* Draw connectors in a casual sketched style, with or without a shadow.
+您可以通过多种不同的方式设置连接线的样式。
+* 更改线条颜色、不透明度、宽度和图案。
+* 将弯曲设置为锐角、圆角或曲线。
+* 使用各种路径点样式更改自动路由行为。
+* 添加各种不同的箭头或技术符号。
+* 在形状边界外开始或结束连接线，或在形状内偏移它。
+* 设置重叠线条使用线跳。
+* 以随意的草图样式绘制连接线，带或不带阴影。
 
-To change a connector's style, select the connector, then use the options in the ``Style`` tab of the format panel, or the tools in the toolbar.
+要更改连接线的样式，请选择连接线，然后使用格式面板的``样式``选项卡中的选项或工具栏中的工具。
 
 [Learn all about connector styles in draw.io](/doc/faq/connector-styles.html)
 

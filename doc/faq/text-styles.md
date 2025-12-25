@@ -11,7 +11,7 @@ categories: [Shapes,Connectors,Text]
 - [Change the position of the text](#change-the-position-of-the-text)
 - [Related features](#related-features)
 
-To change the style of a text label, select the shape or connector, then select the _Text_ tab in the format panel on the right. 
+要更改文本标签的样式，请选择形状或连接线，然后选择右侧格式面板中的_文本_选项卡。 
 <br /><img src="/assets/img/blog/text-tab.png" style="width=100%;max-width:500px;height:auto;" alt="Select a shape, then select the Text tab in the format panel to change its style">
 
 
@@ -81,11 +81,11 @@ You can change how a text label is displayed in a shape by changing its position
 
 [Learn more about text alignment and positioning in shapes and on connectors](/blog/text-alignment.html)
 
-## Related features
+## 相关功能
 
-* [Add labels to shapes and connectors](/doc/faq/labels-add.html)
-* [Add line breaks to text and labels](/doc/faq/line-breaks.html)
-* [Use maths typesetting in text labels](/blog/maths-in-diagrams.html)
-* [Change the style of shapes](/doc/faq/shape-styles.html)
-* [Change the style of connectors](/doc/faq/connector-styles.html)
+* [向形状和连接线添加标签](/doc/faq/labels-add.html)
+* [在文本和标签中添加换行符](/doc/faq/line-breaks.html)
+* [在文本标签中使用数学排版](/blog/maths-in-diagrams.html)
+* [更改形状的样式](/doc/faq/shape-styles.html)
+* [更改连接线的样式](/doc/faq/connector-styles.html)
 

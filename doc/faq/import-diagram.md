@@ -5,12 +5,12 @@ faq: true
 categories: [Import]
 ---
 
-You can import a diagram file into an existing diagram.
+您可以将图表文件导入到现有图表中。
 
-* Store related diagrams together in one diagram file. For more complex diagrams, multiple pages in the same diagram are useful.
-* Use a diagram as a template, such as when extending or modifying the UML diagrams of your existing code base.
+* 将相关图表一起存储在一个图表文件中。对于更复杂的图表，同一图表中的多个页面很有用。
+* 将图表用作模板，例如在扩展或修改现有代码库的 UML 图时。
 
-**Tip:** In addition to importing ``.drawio`` and ``.xml`` diagram files, you can import diagrams in other formats in this way, including Gliffy, Lucidchart and .vsdx diagrams.
+**提示：** 除了导入 ``.drawio`` 和 ``.xml`` 图表文件外，您还可以通过这种方式导入其他格式的图表，包括 Gliffy、Lucidchart 和 .vsdx 图表。
 
 ## Import a diagram
 
@@ -29,7 +29,7 @@ This method works when you have added shapes to the drawing canvas.
 
 If you try to drag and drop a file into a blank diagram, it will open that file instead adding the diagram contents to your current diagram.
 
-## Related
+## 相关
 
-* [Create a new diagram](/doc/faq/new-diagram.html)
-* [Open an existing diagram file](/doc/faq/open-diagram-file.html)
+* [创建新图表](/doc/faq/new-diagram.html)
+* [打开现有图表文件](/doc/faq/open-diagram-file.html)

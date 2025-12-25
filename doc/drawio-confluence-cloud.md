@@ -5,11 +5,11 @@ faq: true
 categories: [Confluence Cloud]
 ---
 
-draw.io is a fully featured diagramming tool, with large shape libraries and templates for a wide range of diagrams. 
+draw.io 是一个功能齐全的图表工具，具有大型形状库和各种图表的模板。
 
-**Administrators:** Go to the [draw.io for Confluence Cloud administration guide](/doc/drawio-confluence-cloud-admin.html) to see how to mass-import Gliffy diagrams, customise draw.io, troubleshoot problems, and manage licenses.
+**管理员：** 转到 [draw.io for Confluence Cloud 管理指南](/doc/drawio-confluence-cloud-admin.html) 了解如何批量导入 Gliffy 图表、自定义 draw.io、排查问题和管理许可证。
 
-Start here if you are a user who is new to draw.io and diagramming.
+如果您是 draw.io 和图表绘制的新用户，请从这里开始。
 
 On this page: 
 - [Getting started](#getting-started)
