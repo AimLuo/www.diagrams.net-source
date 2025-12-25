@@ -4,70 +4,70 @@ layout: page
 permalink: /features.html
 ---
 
-Our draw.io diagramming applications are the leading solutions for web based sketching and diagramming functionality.
-- [Keep your diagram data secure](#keep-your-diagram-data-secure)
-- [Diagram wherever you want](#diagram-wherever-you-want)
-  - [Integrate diagrams with other software](#integrate-diagrams-with-other-software)
-- [Collaborate in real-time with shared cursors](#collaborate-in-real-time-with-shared-cursors)
-- [Easy-to-use diagram editor](#easy-to-use-diagram-editor)
-- [Diagram in dark mode](#diagram-in-dark-mode)
-- [Many advanced tools](#many-advanced-tools)
-- [Create a wide range of diagrams](#create-a-wide-range-of-diagrams)
+我们的 draw.io 图表应用是基于网络的绘图和图表功能的领先解决方案。
+- [保护您的图表数据安全](#keep-your-diagram-data-secure)
+- [随时随地绘制图表](#diagram-wherever-you-want)
+  - [将图表与其他软件集成](#integrate-diagrams-with-other-software)
+- [使用共享光标实时协作](#collaborate-in-real-time-with-shared-cursors)
+- [易于使用的图表编辑器](#easy-to-use-diagram-editor)
+- [暗色模式绘制图表](#diagram-in-dark-mode)
+- [许多高级工具](#many-advanced-tools)
+- [创建各种类型的图表](#create-a-wide-range-of-diagrams)
 
-## Keep your diagram data secure
+## 保护您的图表数据安全
 
-All of our draw.io applications and integrations with various platforms, as well as our free online diagram editor at app.diagrams.net do not store your diagram data - draw.io is a [unique security-first diagramming tool](/blog/data-protection.html). 
+我们所有的 draw.io 应用和与各种平台的集成，以及我们在 app.diagrams.net 的免费在线图表编辑器都不会存储您的图表数据 - draw.io 是一个[独特的以安全为先的图表工具](/blog/data-protection.html)。 
 
-* Set [data governance options](blog/data-governance-lockdown.html) for fine control over extended features. 
-* [Install our offline desktop app](https://get.diagrams.net/), available on Windows, MacOS and Linux.
+* 设置[数据治理选项](blog/data-governance-lockdown.html)以精细控制扩展功能。 
+* [安装我们的离线桌面应用](https://get.diagrams.net/)，适用于 Windows、MacOS 和 Linux。
 
-## Diagram wherever you want
+## 随时随地绘制图表
 
-Use whichever cloud platform you prefer to store your diagram files: [Google Drive](https://app.diagrams.net/?mode=google), [Microsoft OneDrive](https://app.diagrams.net/?mode=onedrive), [DropBox](https://app.diagrams.net/?mode=dropbox), [GitHub](https://app.diagrams.net/?mode=github)/[GitLab](https://app.diagrams.net/?mode=gitlab), in your browser, or on your device.
+使用您喜欢的任何云平台存储您的图表文件：[Google Drive](https://app.diagrams.net/?mode=google)、[Microsoft OneDrive](https://app.diagrams.net/?mode=onedrive)、[DropBox](https://app.diagrams.net/?mode=dropbox)、[GitHub](https://app.diagrams.net/?mode=github)/[GitLab](https://app.diagrams.net/?mode=gitlab)，在浏览器中或在您的设备上。
 
-**No account needed** - your diagrams are not locked behind an account. 
+**无需账户** - 您的图表不会被账户锁定。 
 
-Use [our free online editor](https://app.diagrams.net) in your browser and on [mobile and touchscreen devices](/blog/touch-screen-diagrams.html).
+在浏览器中以及[移动和触摸屏设备](/blog/touch-screen-diagrams.html)上使用[我们的免费在线编辑器](https://app.diagrams.net)。
 <br /><img src="/assets/img/blog/touch-diagrams-connectors.gif" style="width=100%;max-width:500px;height:auto;" alt="Tap and drag a connector from the direction arrows on one shape and release over another shape to connect the two">
 
-### Integrate diagrams with other software
+### 将图表与其他软件集成
 
-Store and work with diagrams in [Atlassian Confluence](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) and [Jira](https://marketplace.atlassian.com/apps/1211413/draw-io-diagrams-for-jira?hosting=cloud&tab=overview) with our draw.io apps, available from the Atlassian Marketplace. External collaborators don't need to join your instance, they can view and edit diagram files that you share with them using our [online editor](https://app.diagrams.net) - no account or diagram format conversion is needed.
+使用我们的 draw.io 应用在 [Atlassian Confluence](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) 和 [Jira](https://marketplace.atlassian.com/apps/1211413/draw-io-diagrams-for-jira?hosting=cloud&tab=overview) 中存储和处理图表，这些应用可从 Atlassian Marketplace 获取。外部协作者无需加入您的实例，他们可以使用我们的[在线编辑器](https://app.diagrams.net)查看和编辑您与他们共享的图表文件 - 无需账户或图表格式转换。
 
-**Embed diagrams** in other applications with our draw.io add-ons:
-* [Microsoft Office 365 apps](/doc/faq/microsoft-office-diagrams.html) and [Microsoft Teams](/doc/faq/microsoft-teams-diagrams.html)
-* [Google Drive](/doc/faq/google-drive-diagrams.html) which works with Google Workplace and [Google Classroom](/blog/google-classroom-diagrams.html)
-* [Notion](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle) and [NextCloud](https://apps.nextcloud.com/apps/drawio)
+使用我们的 draw.io 插件**在其他应用中嵌入图表**：
+* [Microsoft Office 365 应用](/doc/faq/microsoft-office-diagrams.html)和 [Microsoft Teams](/doc/faq/microsoft-teams-diagrams.html)
+* [Google Drive](/doc/faq/google-drive-diagrams.html)，可与 Google Workplace 和 [Google Classroom](/blog/google-classroom-diagrams.html) 配合使用
+* [Notion](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle) 和 [NextCloud](https://apps.nextcloud.com/apps/drawio)
 
-Plus, many more [3rd-party integrations](/integrations.html) are available because [we are open source](https://github.com/jgraph/drawio). 
+此外，由于[我们是开源的](https://github.com/jgraph/drawio)，还有更多[第三方集成](/integrations.html)可用。 
 <br /><img src="/assets/img/blog/integrations.png" style="width=100%;max-width:650px;;height:auto;" alt="There is a large ecosystem of draw.io apps for diagramming in whichever platform or app you are using for documentation">
 
-**Advanced:** See how to [embed the draw.io editor](/blog/embedding-walkthrough.html) in your own application.
+**高级功能：** 了解如何在您自己的应用中[嵌入 draw.io 编辑器](/blog/embedding-walkthrough.html)。
 
 
-## Collaborate in real-time with shared cursors
+## 使用共享光标实时协作
 
-Multiple editors see changes **synchronised in real time** using [Google Drive](https://app.diagrams.net/?mode=google) or [Microsoft OneDrive](https://app.diagrams.net/?mode=onedrive), [DropBox](https://app.diagrams.net/?mode=dropbox), and [draw.io in Confluence](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence).
+多个编辑者使用 [Google Drive](https://app.diagrams.net/?mode=google) 或 [Microsoft OneDrive](https://app.diagrams.net/?mode=onedrive)、[DropBox](https://app.diagrams.net/?mode=dropbox) 以及 [Confluence 中的 draw.io](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) 可以**实时同步**看到更改。
 
-Everyone collaborating on a diagram can see exactly what everyone else is doing. 
+在图表上协作的每个人都可以准确看到其他人在做什么。 
 <br /><img src="/assets/img/blog/remote-cursors.gif" style="width=100%;max-width:500px;height:auto;" alt="Share your mouse cursor with others who are editing the same diagram file stored in OneDrive or Google Drive">
 
-## Easy-to-use diagram editor
+## 易于使用的图表编辑器
 
-The draw.io apps work just like the office and drawing tools you are used to using.
+draw.io 应用的工作方式就像您习惯使用的办公和绘图工具一样。
 
-* Drag and drop shapes from the [shape libraries](/blog/shape-libraries.html) and drag to [draw connectors](/blog/connect-shapes.html) between them.
-* Drag connectors to [add waypoints](/blog/waypoints-connectors.html) and set a precise shape and position, or let them reroute automatically.
-* Double click and start typing to [add a label](/doc/faq/labels-add.html) to anything. 
-* Create [tables](/blog/tables.html) and [swimlane flows](/blog/swimlane-diagrams.html) with a familiar tool.
-* [Style shapes](/doc/faq/shape-styles.html) and connectors with [customisable palettes](/doc/faq/configure-diagram-editor.html), [sketch options](/blog/rough-style.html), fonts and [text formatting tools](/doc/faq/text-styles.html).
-* [Search for shapes](/doc/faq/shape-search.html), including in open-source icon libraries.
-* Use our vast libraries of shapes and [templates](/doc/faq/insert-template.html), organised into logical categories, to create a range of diagrams and infographics. 
-* Generate diagrams from text descriptions using our [smart templates](/blog/smart-diagram-generation.html).
-* Diagram faster with [keyboard shortcuts](/blog/modifier-shortcuts-in-diagrams.html).  
+* 从[形状库](/blog/shape-libraries.html)中拖放形状，并在它们之间拖拽以[绘制连接线](/blog/connect-shapes.html)。
+* 拖拽连接线以[添加路径点](/blog/waypoints-connectors.html)并设置精确的形状和位置，或让它们自动重新路由。
+* 双击并开始输入以[添加标签](/doc/faq/labels-add.html)到任何内容。 
+* 使用熟悉的工具创建[表格](/blog/tables.html)和[泳道流程图](/blog/swimlane-diagrams.html)。
+* 使用[可自定义的调色板](/doc/faq/configure-diagram-editor.html)、[草图选项](/blog/rough-style.html)、字体和[文本格式化工具](/doc/faq/text-styles.html)[设置形状](/doc/faq/shape-styles.html)和连接线的样式。
+* [搜索形状](/doc/faq/shape-search.html)，包括在开源图标库中搜索。
+* 使用我们庞大的形状和[模板](/doc/faq/insert-template.html)库，按逻辑分类组织，创建各种图表和信息图。 
+* 使用我们的[智能模板](/blog/smart-diagram-generation.html)从文本描述生成图表。
+* 使用[键盘快捷键](/blog/modifier-shortcuts-in-diagrams.html)更快地绘制图表。  
 <br /><img src="/assets/img/blog/basic-flow-add-connect-shape.gif" style="width=100%;max-width:500px;height:auto;" alt="Add a second shape and connect it from the first - hover and click on the direction arrow, or drag a shape over another and drop it on a direction arrow">
 
-**Diagram your way:** Find your favourite [editor theme](/blog/diagram-editor-theme.html) - a simple [online whiteboard](/blog/sketch-online-whiteboard.html), floating tool panels, dark mode, or the standard diagramming software layout. You can also [switch the editor to use your language](/doc/faq/menu-language-change.html).
+**按您的方式绘制图表：** 找到您最喜欢的[编辑器主题](/blog/diagram-editor-theme.html) - 简单的[在线白板](/blog/sketch-online-whiteboard.html)、浮动工具面板、暗色模式或标准图表软件布局。您还可以[将编辑器切换为使用您的语言](/doc/faq/menu-language-change.html)。
 <br />[<img src="/assets/img/blog/sketch-theme-tutorial.png" style="width=100%;max-width:500px;height:auto;" alt="Sketch editor theme for a simpler online whiteboard">](https://app.diagrams.net/?splash=0&ui=sketch&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fblog%2Fboard-visual-tutorial.drawio)
 
 **Import and export:** Drag and drop a file to [import a diagram](/doc/faq/import-diagram.html), including many other [diagram formats](/blog/import-formats.html) and continue editing. Publish and [export to many formats](/doc/faq/export-diagram.html). 
@@ -75,9 +75,9 @@ The draw.io apps work just like the office and drawing tools you are used to usi
 
 Read more about [new and useful editor features in our blog](/blog/features.html). 
 
-## Diagram in dark mode
+## 暗色模式绘制图表
 
-The draw.io editor can automatically adjust the colours and brightness to make sure you diagram is readable when you use [dark mode](/blog/dark-mode-diagrams.html). You can [set user-defined colours](/blog/adaptive-colours.html) to override the automatic dark-mode colours, or disable adaptive colours in the editor to have the editor panels in dark mode, but the diagram always in light mode. 
+draw.io 编辑器可以自动调整颜色和亮度，确保在使用[暗色模式](/blog/dark-mode-diagrams.html)时图表可读。您可以[设置用户定义的颜色](/blog/adaptive-colours.html)以覆盖自动暗色模式颜色，或在编辑器中禁用自适应颜色，使编辑器面板处于暗色模式，但图表始终处于亮色模式。 
 <br /><img src="/assets/img/blog/style-tab-adaptive-colors.gif" style="width=100%;max-width:500px;height:auto;" alt="Change the adaptive colours settings on a diagram in draw.io via the Extras menu or the Style tab in the format panel when nothing is selected">
 
 ## Many advanced tools

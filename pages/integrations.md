@@ -4,64 +4,64 @@ layout: page
 permalink: /integrations.html
 ---
 
-At draw.io, being open source means anyone can take the project, change it, deploy it and integrate it.
+在 draw.io，开源意味着任何人都可以获取该项目、修改它、部署它并集成它。
 
-In fact, draw.io and our [free online editor](https://app.diagrams.net) tool has already been integrated into a wide variety of platforms, and is available to be deployed as a self-hosted docker application, or used as a stand-alone private diagramming application.
+事实上，draw.io 和我们的[免费在线编辑器](https://app.diagrams.net)工具已经集成到各种平台中，可以作为自托管的 docker 应用程序部署，或用作独立的私有图表应用程序。
 
-Although the integrations may be branded under our diagrams.net and draw.io names, it's the same editor underneath.
+尽管集成可能以我们的 diagrams.net 和 draw.io 名称命名，但底层是同一个编辑器。
 <br /><img src="/assets/img/blog/integrations.png" style="width=100%;max-width:650px;;height:auto;" alt="There is a large ecosystem of draw.io apps for diagramming in whichever platform or app you are using for documentation">
 
-### draw.io Desktop
+### draw.io 桌面版
 
-draw.io desktop is a stand-alone, offline application available for Windows, macOS and Linux. This is ideal if you want the enhanced security of a desktop application with no reliance on an internet connection. [Get the desktop app today](https://get.diagrams.net/)
+draw.io 桌面版是一个独立的离线应用程序，适用于 Windows、macOS 和 Linux。如果您想要桌面应用程序的增强安全性且不依赖互联网连接，这是理想的选择。[立即获取桌面应用](https://get.diagrams.net/)
 
-### Online at app.diagrams.net
+### 在线使用 app.diagrams.net
 
-Create, edit and view diagrams using our free diagramming application online at [app.diagrams.net](https://app.diagrams.net). You can even use it as [a diagram viewer for files created by another diagramming tool](/blog/online-diagram-viewer.html).
+使用我们的免费图表应用程序在线在 [app.diagrams.net](https://app.diagrams.net) 创建、编辑和查看图表。您甚至可以将其用作[由另一个图表工具创建的文件的图表查看器](/blog/online-diagram-viewer.html)。
 
-* **Mobile diagramming:** Add a web link to app.diagrams.net on your mobile device's home screen to diagram on-the-go. The Minimal theme is great for mobile devices.
-* **Flexible file storage:** Store your diagrams where you need them - on [Google Drive](https://app.diagrams.net/?mode=google), [OneDrive](https://app.diagrams.net/?mode=onedrive), [GitHub](https://app.diagrams.net/?mode=github), [GitLab](https://app.diagrams.net/?mode=gitlab), [Dropbox](https://app.diagrams.net/?mode=dropbox), or on your local device.
+* **移动端图表绘制：** 在移动设备的主屏幕上添加 app.diagrams.net 的网页链接，以便随时绘制图表。Minimal 主题非常适合移动设备。
+* **灵活的文件存储：** 在您需要的地方存储图表 - 在 [Google Drive](https://app.diagrams.net/?mode=google)、[OneDrive](https://app.diagrams.net/?mode=onedrive)、[GitHub](https://app.diagrams.net/?mode=github)、[GitLab](https://app.diagrams.net/?mode=gitlab)、[Dropbox](https://app.diagrams.net/?mode=dropbox) 或本地设备上。
 
-### Self-hosted, secure, container-deployable
+### 自托管、安全、容器可部署
 
-draw.io is designed to be easy to configure and fast to deploy in a container.
+draw.io 设计为易于配置并在容器中快速部署。
 
-* [Get the draw.io application code on GitHub](https://github.com/jgraph/docker-drawio)
-* [Learn more about docker and containers](https://www.docker.com/resources/what-container)
+* [在 GitHub 上获取 draw.io 应用程序代码](https://github.com/jgraph/docker-drawio)
+* [了解更多关于 docker 和容器的信息](https://www.docker.com/resources/what-container)
 
-### Google Drive add-on for Google Workspace and Classroom
+### Google Drive 插件（适用于 Google Workspace 和 Classroom）
 
-draw.io lets you [store your diagram files in Google Drive](https://app.diagrams.net/?mode=google) and [work with them in using the draw.io Google Workspace app](https://gsuite.diagrams.net/). This app also works in [Google Classroom](/blog/google-classroom-diagrams.html)
+draw.io 允许您[在 Google Drive 中存储图表文件](https://app.diagrams.net/?mode=google)，并使用 [draw.io Google Workspace 应用](https://gsuite.diagrams.net/)处理它们。此应用也适用于 [Google Classroom](/blog/google-classroom-diagrams.html)
 
-[See how to use the draw.io add-ons for Google Drive](/doc/faq/google-drive-diagrams.html)
+[了解如何使用 draw.io 的 Google Drive 插件](/doc/faq/google-drive-diagrams.html)
 
-### Microsoft Sharepoint, OneDrive, and Office 365 integrations
+### Microsoft Sharepoint、OneDrive 和 Office 365 集成
 
-draw.io works with [OneDrive and Sharepoint](https://app.diagrams.net/?mode=onedrive). An [Office 365 app](https://office.diagrams.net/) is available for Word, Powerpoint and Excel. 
+draw.io 可与 [OneDrive 和 Sharepoint](https://app.diagrams.net/?mode=onedrive) 配合使用。[Office 365 应用](https://office.diagrams.net/)适用于 Word、Powerpoint 和 Excel。 
 
-### GitHub app
+### GitHub 应用
 
-The [draw.io app for GitHub](https://github.com/apps/draw-io-app) lets you authorise access to individual repositories, and will replace the older OAuth authorisation method.
+[draw.io 的 GitHub 应用](https://github.com/apps/draw-io-app)允许您授权访问单个存储库，并将替换较旧的 OAuth 授权方法。
 
-### Notion and Nextcloud integrations
+### Notion 和 Nextcloud 集成
 
-With the [draw.io for Notion extension in the chrome web store](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle), you can [embed and edit diagrams directly within your Notion pages](/blog/drawio-notion.html). This browser extension works in Google Chrome, Opera and Microsoft Edge. 
+使用 [Chrome 网上应用店中的 draw.io for Notion 扩展](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle)，您可以[直接在 Notion 页面中嵌入和编辑图表](/blog/drawio-notion.html)。此浏览器扩展适用于 Google Chrome、Opera 和 Microsoft Edge。 
 
-The [draw.io app for Nextcloud](https://apps.nextcloud.com/apps/drawio) lets you create and edit diagrams in Nextcloud, including with shared cursors for real-time collaboration.
+[draw.io 的 Nextcloud 应用](https://apps.nextcloud.com/apps/drawio)允许您在 Nextcloud 中创建和编辑图表，包括使用共享光标进行实时协作。
 
-### Atlassian Confluence and Jira
+### Atlassian Confluence 和 Jira
 
-The draw.io apps for Confluence and Jira are available via the Atlassian Marketplace for Cloud, Data Centre and Server. [draw.io for Confluence](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) is the highest-rated app on the Atlassian Marketplace.
+draw.io 的 Confluence 和 Jira 应用可通过 Atlassian Marketplace 获取，支持 Cloud、Data Centre 和 Server。[draw.io for Confluence](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) 是 Atlassian Marketplace 上评分最高的应用。
 
 <img src="/assets/img/blog/embed-diagrams-confluence-cloud.png" width="400" alt="Embedded diagrams in draw.io for Confluence Cloud">
 
-* **Enterprise file management support:** Even if your company doesn't want to store diagrams inside the Confluence or Jira instance, you can take advantage of the app's [integrations with Google Drive and Microsoft OneDrive](/doc/faq/embed-diagram-googledrive-confluence-cloud.html).
-* **Flexible customisation:** By using draw.io within your Confluence and Jira environment, you can [customise many aspects to make it easier for your employees to diagram](/doc/faq/): templates, shapes, shape libraries, colour palettes and style to match your corporate image, plugins, and even the user interface can be customised.
-* **Easy migration:** If you have many Gliffy and/or LucidChart OnPrem diagrams in your Confluence instances, you can convert all of these to draw.io diagrams with one click in the app administration section.
+* **企业文件管理支持：** 即使您的公司不想在 Confluence 或 Jira 实例中存储图表，您也可以利用应用的[与 Google Drive 和 Microsoft OneDrive 的集成](/doc/faq/embed-diagram-googledrive-confluence-cloud.html)。
+* **灵活的定制：** 通过在 Confluence 和 Jira 环境中使用 draw.io，您可以[定制许多方面以使员工更容易绘制图表](/doc/faq/)：模板、形状、形状库、调色板和样式以匹配您的企业形象、插件，甚至用户界面都可以定制。
+* **轻松迁移：** 如果您的 Confluence 实例中有许多 Gliffy 和/或 LucidChart OnPrem 图表，您可以在应用管理部分一键将所有图表转换为 draw.io 图表。
 
-## 3rd-party integrations
+## 第三方集成
 
-The following integrations are not directly provided by the draw.io team.
+以下集成不是由 draw.io 团队直接提供的。
 
 * [**Bioicons:**](https://bioicons.com/extensions/) Open-source icon libraries that work with the draw.io web app for life science illustrations and diagrams.
 * [**BookStack:**](https://www.bookstackapp.com/blog/beta-release-v0-20-0/) An open source information management system.

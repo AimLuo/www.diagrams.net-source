@@ -4,25 +4,25 @@ layout: page
 categories: [features]
 ---
 
-draw.io is a free and open source diagramming app that you can use online at [app.diagrams.net](https://app.diagrams.net), and offline (draw.io desktop).
+draw.io 是一个免费的开源图表应用，您可以在线在 [app.diagrams.net](https://app.diagrams.net) 使用，也可以离线使用（draw.io 桌面版）。
 
-As a security-first diagramming app for teams, we provide the diagramming functionality, and you choose where to keep your diagram data. There are many different [integrations with other platforms and applications](/integrations.html), including [Atlassian Confluence Cloud](/doc/drawio-confluence-cloud.html), Google Workspace and Classroom, GitHub, Gitlab, Notion, Microsoft Office 365.
+作为面向团队的安全优先图表应用，我们提供图表功能，您可以选择在哪里保存图表数据。有许多不同的[与其他平台和应用程序的集成](/integrations.html)，包括 [Atlassian Confluence Cloud](/doc/drawio-confluence-cloud.html)、Google Workspace 和 Classroom、GitHub、Gitlab、Notion、Microsoft Office 365。
 
-Our draw.io diagram editor looks the same and offers the same main features no matter where you are using it. You can open a diagram created in one integration in another.
+无论您在哪里使用它，我们的 draw.io 图表编辑器看起来都一样，并提供相同的主要功能。您可以在一个集成中打开在另一个集成中创建的图表。
 
 [<img src="/assets/img/blog/tutorial-menu-header.png" style="width=100%;max-width:85px;" alt="The draw.io menu">](#menu)[<img src="/assets/img/blog/tutorial-toolbar-header.png" style="width=100%;max-width:98px;" alt="The draw.io toolbar">](#toolbar)[<img src="/assets/img/blog/tutorial-shapes-header.png" style="width=100%;max-width:154px;" alt="Shapes and shape libraries in draw.io">](#shapes-and-shape-libraries)[<img src="/assets/img/blog/tutorial-canvas-header.png" style="width=100%;max-width:154px;" alt="The draw.io drawing canvas">](#drawing-canvas)[<img src="/assets/img/blog/tutorial-format-header.png" style="width=100%;max-width:154px;" alt="The format panel in draw.io">](#format-panel)
 
-## The draw.io editor
+## draw.io 编辑器
 
-Like most diagramming apps, the items you see in the toolbar and the panels around the drawing canvas are context sensitive. Tools and options will be displayed depending on the type of element(s) you have selected on the drawing canvas.
+与大多数图表应用一样，您在工具栏和绘图画布周围的面板中看到的项目是上下文相关的。将根据您在绘图画布上选择的元素类型显示工具和选项。
 
-If you have used diagramming tools before, you will be familiar with the diagram editor layout.
+如果您以前使用过图表工具，您会熟悉图表编辑器的布局。
 
-**Tip:** Hover your mouse over any button, tool or option in the draw.io editor to see a tooltip that says what it is used for.
+**提示：** 将鼠标悬停在 draw.io 编辑器中的任何按钮、工具或选项上，以查看说明其用途的工具提示。
 
 <img src="/assets/img/blog/interface-introduction.png" style="max-width:100%;height:auto;" alt="The draw.io editor, its tools and panels">
 
-The sections below cover all of the main draw.io editor features.
+以下部分涵盖了所有主要的 draw.io 编辑器功能。
 
 - [The draw.io editor](#the-drawio-editor)
   - [Menu](#menu)
@@ -41,20 +41,20 @@ The sections below cover all of the main draw.io editor features.
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [Next step: Draw a diagram](#next-step-draw-a-diagram)
 
-### Menu
+### 菜单
 
-The menu in draw.io works in the same way as other applications. Features are arranged into the following menus.
+draw.io 中的菜单与其他应用程序的工作方式相同。功能按以下菜单排列。
 
-Depending on what you have selected in your diagram, some of the menu entries will not be selectable. For example, you can't edit a shape's style if you haven't selected a shape.
+根据您在图表中选择的内容，某些菜单项将不可选择。例如，如果您没有选择形状，则无法编辑形状的样式。
 
-* **File** - work with the diagram files (new, open, import/export, and print), as well as to open or custom create shape libraries.
-* **Edit** - select and edit the shapes and connectors in your diagram and their styles.
-* **View** - hide or display the various panels and helper tools in the draw.io editor including the scratchpad, layers, ruler and more.
-* **Arrange** - group and organise shapes and connectors, [insert templates and images](/doc/faq/arrange-insert-menu.html), use the automatic layout features.
-* **Extras** - enable a different editor theme, use math typesetting, enable/disable the start screen and autosave, and work with tags or add a custom configuration.
-* **Help** - see the keyboard shortcuts, view support information or download the desktop version of draw.io.
+* **文件** - 处理图表文件（新建、打开、导入/导出和打印），以及打开或自定义创建形状库。
+* **编辑** - 选择和编辑图表中的形状和连接线及其样式。
+* **视图** - 隐藏或显示 draw.io 编辑器中的各种面板和辅助工具，包括便笺本、图层、标尺等。
+* **排列** - 分组和组织形状和连接线，[插入模板和图像](/doc/faq/arrange-insert-menu.html)，使用自动布局功能。
+* **附加** - 启用不同的编辑器主题，使用数学排版，启用/禁用开始屏幕和自动保存，以及使用标签或添加自定义配置。
+* **帮助** - 查看键盘快捷键，查看支持信息或下载 draw.io 的桌面版本。
 
-**Tip:** To the right of the menu is a status message showing if there are unsaved edits or if your diagram has been autosaved.
+**提示：** 菜单右侧是状态消息，显示是否有未保存的编辑或图表是否已自动保存。
 
 [_Back to top_](#the-drawio-editor)
 
