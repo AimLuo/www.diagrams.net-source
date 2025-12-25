@@ -5,10 +5,10 @@ faq: true
 categories: [Connectors]
 ---
 
-In draw.io by default, connectors have arrow heads at one end, where it connects to the target shape. You can add an arrow head at the other end via the format panel on the right.
+在 draw.io 中，默认情况下，连接线在一端有箭头，连接到目标形状。您可以通过右侧的格式面板在另一端添加箭头。
 
-1. Select the connector.
-2. In the _Style_ tab of the format panel, select the middle drop down on the second row, then select an arrow head from the list. This will add an arrow head pointing towards the source shape.
+1. 选择连接线。
+2. 在格式面板的_样式_选项卡中，选择第二行的中间下拉列表，然后从列表中选择箭头。这将添加一个指向源形状的箭头。
 
 <img src="/assets/img/blog/connector-bidirectional.gif" style="max-width:100%;height:auto;" alt="Add an arrow pointing towards the source shape to make the connector bidirectional">
 

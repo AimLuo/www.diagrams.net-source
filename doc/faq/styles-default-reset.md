@@ -5,14 +5,14 @@ faq: true
 categories: [Features,Shapes,Connectors]
 ---
 
-You can change the default styles of shapes and connectors easily as you are creating your diagram with _Set as Default Style_ in the _Style_ tab of the format panel. Whenever you add a new shape or connector from the shape library or toolbar, this new default style will be applied.
+您可以在创建图表时通过格式面板的_样式_选项卡中的_设置为默认样式_轻松更改形状和连接线的默认样式。每当您从形状库或工具栏添加新形状或连接线时，将应用此新默认样式。
 
-**Reset the default style**
+**重置默认样式**
 
-You can reset this default style of both connectors and shapes via the format panel.
+您可以通过格式面板重置连接线和形状的默认样式。
 
-1. Make sure nothing is selected in your diagram so you can see the _Diagram_ tab in the format panel.
-2. Click on _Clear Default Style_ on the _Diagram_ tab in the format panel.
+1. 确保图表中未选择任何内容，以便您可以在格式面板中看到_图表_选项卡。
+2. 在格式面板的_图表_选项卡上单击_清除默认样式_。
 <br /><img src="/assets/img/blog/diagram-tab-clear-default-style.png" style="width=100%;max-width:150px;height:auto;" alt="Click on Clear Default Style to reset the style used when adding new shapes and connectors to their diagram.net defaults">
 
 ## Related

@@ -5,15 +5,15 @@ faq: true
 categories: [Features,Customisation]
 ---
 
-Each shape in a diagram can contain metadata or custom properties - extra information about those shapes.
+图表中的每个形状都可以包含元数据或自定义属性 - 关于这些形状的额外信息。
 
-These custom properties can also be used to define placeholder values, acting like variables in a computer program. Placeholders can be used in shape labels and tooltips to show the value of the custom property of that shape, the container shape it is inside, or an ancestor in a multi-group shape.
+这些自定义属性也可以用于定义占位符值，就像计算机程序中的变量一样。占位符可用于形状标签和工具提示中，以显示该形状的自定义属性值、它所在的容器形状或多组形状中的祖先的值。
 
-See how to [work with placeholders in labels and tooltips](/blog/placeholders.html).
+了解如何在[标签和工具提示中使用占位符](/blog/placeholders.html)。
 
-## Predefined placeholders
+## 预定义的占位符
 
-In addition to using property names as placeholders, you can use the following predefined placeholders.
+除了使用属性名称作为占位符外，您还可以使用以下预定义的占位符。
 
 |:----- |:----- |
 | ``%id%`` |  Prints the ID of a shape or connector. |
