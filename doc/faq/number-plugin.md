@@ -5,21 +5,21 @@ faq: true
 categories: [Plugins]
 ---
 
-**Important:** The ``Enumerate`` shape property allows you to add a numbered label to selected shapes and connectors. It can not be applied by default to any new shape added to the drawing canvas. 
+**重要：** ``Enumerate`` 形状属性允许您向选定的形状和连接线添加编号标签。默认情况下，它不能应用于添加到绘图画布的任何新形状。
 
-The ``Enumerate`` shape property, however, gives you control over what parts of your diagram are numbered, and can be customised to work on shapes and connectors inside container shapes or table cells, unlike the number plugin.
+但是，``Enumerate`` 形状属性可以让您控制图表的哪些部分被编号，并且可以自定义以在容器形状或表格单元格内的形状和连接线上工作，这与编号插件不同。
 
-[Learn how to use the ``Enumerate`` shape property](/blog/number-shapes.html)
+[了解如何使用 ``Enumerate`` 形状属性](/blog/number-shapes.html)
 
-## Use the number plugin instead
+## 改用编号插件
 
-_This plugin should be used as-is, as an unsupported example for developers._
+_此插件应按原样使用，作为开发人员的不受支持的示例。_
 
-Add automatic numbering to the shapes in your diagram with the number plugin. It will number each shape as they are added to your diagram. 
+使用编号插件为图表中的形状添加自动编号。它会在将每个形状添加到图表时为其编号。
 
-You can change the order by bring shapes to forwards or backwards in the _Arrange_ tab of the format pannel - the numbering is based on their z-order (depth) in the diagram.
+您可以通过在格式面板的_排列_选项卡中将形状向前或向后移动来更改顺序 - 编号基于它们在图表中的 z 顺序（深度）。
 
-**Note:** This does not work on container shapes and table shapes because they are compound shapes - the number plugin will number each part. Use the [``Enumerate`` shape property](/blog/number-shapes.html) instead. 
+**注意：** 这不适用于容器形状和表格形状，因为它们是复合形状 - 编号插件将为每个部分编号。请改用 [``Enumerate`` 形状属性](/blog/number-shapes.html)。 
 
 [<img src="/assets/img/blog/number-plugin.gif" style="max-width:100%;height:auto;" alt="The number plugin automatically includes numbers on shapes as you add them to your diagram">](https://app.diagrams.net/?highlight=0000ff&edit=_blank&p=number&layers=1&nav=1&title=number-plugin#R5VdNj5swEP01HCsBJnxcl2bbSu2hiqpWvTkwAVLDIGNC0l9fE0yAJLCs1DTK9hLhNzMZz%2BP5ARrx0%2F0HTvP4C4bANFMP9xp5r5mma3jytwYODbBwSANEPAkbyOiAVfIbFKgrtExCKAaJApGJJB%2BCAWYZBGKAUc6xGqZtkA275jSCC2AVUHaJfk9CESvUsL0u8BGSKFatXdNpAiltk9UkRUxDrHoQWWrE54iiuUr3PrCau5aXpu55JHraGIdMzCl4%2Bunhj8J59hfbT18zd73aftu9I3bzNzvKSjWx2q04tBRAKBlRS%2BQixggzypYd%2BsSxzEKo%2B%2Bhy1eV8RswlaEhwC0Ic1O2lpUAJxSJlKtr0rBuNDqegAksewMRELd2C8gjE1OiL002Q4gVMQfCDLOTAqEh2w51QJaPolNcxLS8U2a8gvt3mFPEdrTVHVZwIWOX0OH0lD9uQwk3CmI8M%2BbGWhBTcTSDxQnD8Bb2IHbiw3pxI3wEXsJ%2Bm%2FZIkVWBaagx1uttl1Tsq7aRx75TY%2Bo1oJe5b03Mj0zl6du6pZ8v8b4m3Rs7IvyG%2B3eakkcSYrsviZRMZOs64dYyZzd%2BwFHtoKYZz6SnuFUtxb2Up1gynfjBlO3Mtxbursp2XiX8APZ89Isn9n5HeDEEzJt%2Bw4TEc4%2Fwl5IpjXGX4dpZhvAXlWvqZE7u3U65cdl9Cx1jvc5Is%2FwA%3D)
 
