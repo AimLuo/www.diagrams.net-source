@@ -99,10 +99,10 @@ You can revert one or more connectors' complex routes back to the most direct ro
 
 [Learn more about working with waypoints on connectors](/blog/waypoints-connectors.html)
 
-## Related features
+## 相关功能
 
-**Edit data:** Select a shape or connector, then click _Edit Data_ in the _Arrange_ tab to add new and change its existing properties, for example, [to use placeholders in label text](/blog/placeholders.html). 
+**编辑数据：** 选择形状或连接线，然后在_排列_选项卡中单击_编辑数据_以添加新属性并更改其现有属性，例如，[在标签文本中使用占位符](/blog/placeholders.html)。
 
-**Edit link:** If a shape links to a web page or [another page in a multi-page diagram](/blog/multiple-page-diagrams.html), click on _Edit Link_ in the _Arrange_ tab to change it. 
+**编辑链接：** 如果形状链接到网页或[多页图表中的另一页](/blog/multiple-page-diagrams.html)，请在_排列_选项卡中单击_编辑链接_以更改它。
 
-**Arrange shapes automatically:** [Automated layout shapes](/blog/automated-layout-shapes.html) and shapes with [swimlanes](/blog/swimlane-diagrams.html) automatically position and realign the shapes you place in them.
+**自动排列形状：** [自动布局形状](/blog/automated-layout-shapes.html)和带有[泳道](/blog/swimlane-diagrams.html)的形状会自动定位并重新对齐您放置在其中的形状。
